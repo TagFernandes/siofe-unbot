@@ -1,0 +1,11 @@
+Flask==3.1.2
+selenium==4.35.0
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp-proto-grpc
+opentelemetry-instrumentation-flask
+loki-logger-handler
+prometheus_client
+beautifulsoup4
+requests
+gunicorn
