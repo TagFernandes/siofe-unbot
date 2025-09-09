@@ -27,17 +27,45 @@ otlp_exporter = OTLPSpanExporter(endpoint="http://localhost:4317", insecure=True
 span_processor = BatchSpanProcessor(otlp_exporter)
 tracer_provider.add_span_processor(span_processor)
 trace.set_tracer_provider(tracer_provider)
-
-
+##
+from data import logger
+##
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 FlaskInstrumentor().instrument_app(app)
 
+
+
 #Metricas
-from data import (
-    REQUESTS_TOTAL, ERRORS_TOTAL, REQUESTS_IN_PROGRESS, REQUEST_LATENCY, logger
+from prometheus_client import (
+    Counter, Gauge, Histogram, 
+    generate_latest, CONTENT_TYPE_LATEST
 )
-from prometheus_client import generate_latest, CONTENT_TYPE_LATEST
+
+#Metricas
+REQUESTS_TOTAL = Counter(
+    'flask_requests_total',
+    'Total de requisições HTTP processadas.',
+    ['method', 'endpoint', 'status_code']
+)
+
+ERRORS_TOTAL = Counter(
+    'flask_errors_total',
+    'Total de erros encontrados na aplicação.',
+    ['error_type', 'endpoint']
+)
+REQUESTS_IN_PROGRESS = Gauge(
+    'flask_requests_in_progress',
+    'Número de requisições em progresso.',
+    ['endpoint']
+)
+
+REQUEST_LATENCY = Histogram(
+    'flask_request_latency_seconds',
+    'Latência das requisições HTTP.',
+    ['endpoint'],
+    buckets=[0.1, 0.2, 0.5, 1, 2, 5]
+)
 ###################################################################################
 
 
@@ -131,13 +159,66 @@ def get_oferta_json():
         return jsonify({"erro": f"O arquivo '{nome_arquivo}' contém um JSON inválido."}), 500
 
 
+@app.route('/timeOferta', methods=['GET'])
+def sendTimeOferta():
+    with open("time.json", 'r', encoding='utf-8') as arquivo:
+        dados = json.load(arquivo)
+    logger.info(f"Solicitacao de tempo de thread | tempo de: {dados["time"]} seg")
+    return str(dados["time"])
+
+
+
+@app.route('/timeOferta', methods=['POST'])
+def setTimeOferta():
+    logger.info("Solicitacao para set de tempoOferta")
+    dados_requisicao = request.get_json()
+    tempo = dados_requisicao.get("tempo")
+    tokenRequisicao = dados_requisicao.get("token")
+
+    if not tempo or not tokenRequisicao:
+        logger.warning("Requisicao de set tempoOferta mal formatada")
+        return jsonify({
+            'erro': 'Os campos "tempo" e "token" são obrigatórios.'
+        }), 400
+
+    try:
+        with open("token.json", 'r', encoding='utf-8') as arquivo:
+            dados = json.load(arquivo)
+            token = dados["token"]
+
+    except Exception as e:
+        logger.error(f"Erro ao obter token do servidor: {e}")
+        return "Erro nos servidor", 500
+    
+
+    if tokenRequisicao != token:
+        logger.warning(f"Token inválido: {tokenRequisicao}")
+        return jsonify({
+            'erro': 'token inválido'
+        }), 403
+    
+    try:
+        tempo = int(tempo)
+    except:
+        logger.warning("Nao foi possivel converter o tempo de setTimeOferta para inteiro")
+        return jsonify({
+            'erro': 'tempo deve ser um inteiro'
+        }), 400
+    
+    dados = {"time":tempo}
+    with open("time.json", 'w', encoding='utf-8') as arquivo:
+        json.dump(dados, arquivo, indent=4, ensure_ascii=False) 
+    logger.info(f"Tempo setOferta para: {tempo}")
+
+    return f"Tempo configurado com sucesso ({tempo})", 200
+    
+
 ##############################################################################################################
 oferta = threading.Thread(target=Lista_Oferta.main)
 oferta.daemon = True
 oferta.start()
-logger.info("Thread de oferta iniciada")
-
 print("Serivdor iniciado")
 logger.info("Servidor iniciado")
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    app.run(host='0.0.0.0', port=5001, debug=False)

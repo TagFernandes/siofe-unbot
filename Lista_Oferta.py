@@ -22,6 +22,10 @@ from datetime import datetime
 
 from data import logger
 
+from prometheus_client import (
+    Gauge
+)
+#####
 OFERTAS_SEMESTRE = None
 SEMESTRE_ATUAL = None
 ANO_ATUAL = None
@@ -81,8 +85,8 @@ def click(wait, xpath, text=None):
             elemento_xpath.clear()
             elemento_xpath.send_keys(text)
     except:
+        logger.error(f"Houve um erro ao clicar no botão: {xpath}")
         print("Houve um erro ao clicar no botão: ", xpath)
-        logger.error("Houve um erro ao clicar no botão: ", xpath)
 
 
 
@@ -163,7 +167,7 @@ def extractOferta():
                 time.sleep(5)
             except Exception as e:
                 print("Terminando a execuao por provemas")
-                logger.error("Erro ao extrair dados da oferta: ", e)
+                logger.error(f"Erro ao extrair dados da oferta: {e}")
                 return
 
     navegador.quit()
@@ -173,6 +177,13 @@ def extractOferta():
     logger.info(f"Gerando arquivo de oferta: {NOME_ARQUIVO}")
     with open(NOME_ARQUIVO, "w", encoding="utf-8") as arquivo:
         json.dump(OFERT, arquivo, ensure_ascii=False, indent=4)
+
+    ARQUIVO_OFERTA_ULTIMA_GERACAO_TIMESTAMP = Gauge(
+        'ULTIMA_GERACAO_OFERTA_TIMESTAMP',
+        'Timestamp Unix da última vez que o arquivo de ofertas foi gerado com sucesso.'
+    )
+    timestamp_agora = time.time()
+    ARQUIVO_OFERTA_ULTIMA_GERACAO_TIMESTAMP.set(timestamp_agora)
     logger.info(f"Arquivo de oferta {NOME_ARQUIVO} gerado com sucesso")
 
     global OFERTAS_SEMESTRE
@@ -299,7 +310,10 @@ def setControlThread(dados={"controleTrhead":False}, nome_arquivo='control.json'
     with open(nome_arquivo, 'w', encoding='utf-8') as arquivo:
         json.dump(dados, arquivo, indent=4, ensure_ascii=False)    
 
-
+def readTimeJson(nome_arquivo="time.json"):
+    with open(nome_arquivo, 'r', encoding='utf-8') as arquivo:
+        dados = json.load(arquivo)
+        return dados["time"]
 
 def main():
     tempo_aleatorio = random.uniform(0, 10)
@@ -308,14 +322,29 @@ def main():
     time.sleep(tempo_aleatorio)
 
     controle = bool(readControlThread().get("controleTrhead"))
-    if (controle == False):
+    if (controle == False):# Repete a execução a cada 12 horas
+
         print("Thread de oferta desativada no control.json")
         return
     setControlThread()
 
+    VERIFICACAO_OFERTA_PROCESS = Gauge(
+        'verificacao_oferta_process',
+        'Mostra se a aplicação está executando verificação de ofertas'
+    )
+
+    VERIFICACAO_OFERTA_PROCESS.set(-1)
     global SEMESTRE_ATUAL, ANO_ATUAL, NOME_ARQUIVO
+    time.sleep(120)
     while True:
         try:
+            COMECO_EXTRACAO_OFERTA = Gauge(
+                'comeco_extracao_oferta_debug',
+                'Timestamp Unix do comeco da verficacao oferta.'
+            )
+            timestamp_agora = time.time()
+            COMECO_EXTRACAO_OFERTA.set(timestamp_agora)
+
             SEMESTRE_ATUAL = int(obter_ano_e_semestre_personalizado()["semestre"])
             ANO_ATUAL = int(obter_ano_e_semestre_personalizado()["ano"])
             NOME_ARQUIVO = f'ofertas/oferta_{ANO_ATUAL}_{SEMESTRE_ATUAL}.json'
@@ -324,11 +353,14 @@ def main():
             print("Ano Atual: ", ANO_ATUAL)
             
             logger.info(f"Iniciando Extração de Oferta de Matérias | Semestre: {SEMESTRE_ATUAL} | Ano: {ANO_ATUAL}")
+            VERIFICACAO_OFERTA_PROCESS.set(1)
             extractOferta()
             logger.info(f"Terminada Extração de Oferta de Matérias | Semestre: {SEMESTRE_ATUAL} | Ano: {ANO_ATUAL}")
             print("Terminada Extração de Oferta de Matérias")
         except Exception as e:
-            print("Erro na catalogação de lista de oferta: ", e)
-            logger.error("Erro na catalogação de lista de oferta: ", e)
-        time.sleep(43200)  # Repete a execução a cada 12 horas
-
+            print(f"Erro na catalogação de lista de oferta: {e}")
+            logger.error(f"Erro na catalogação de lista de oferta: {e}")
+        VERIFICACAO_OFERTA_PROCESS.set(0)
+        timeWait = int(readTimeJson)
+        logger.info(f"Proxima verificacao de oferta em: {timeWait} segundos")
+        time.sleep(timeWait)  

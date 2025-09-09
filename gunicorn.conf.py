@@ -9,7 +9,7 @@ def when_ready(server):
 
 # O número de processos de trabalho.
 # (2 * n_cores) + 1 é uma boa regra.
-workers = 8
+workers = 4
 
 # O endereço e a porta para vincular.
 # '0.0.0.0' torna o servidor acessível de qualquer IP na rede.
