@@ -360,7 +360,8 @@ def main():
         except Exception as e:
             print(f"Erro na catalogação de lista de oferta: {e}")
             logger.error(f"Erro na catalogação de lista de oferta: {e}")
+            
         VERIFICACAO_OFERTA_PROCESS.set(0)
-        timeWait = int(readTimeJson)
+        timeWait = int(readTimeJson())
         logger.info(f"Proxima verificacao de oferta em: {timeWait} segundos")
         time.sleep(timeWait)  
