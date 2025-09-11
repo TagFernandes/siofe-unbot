@@ -4,6 +4,7 @@ import os
 import json
 from functools import wraps
 import threading
+from datetime import datetime
 
 from werkzeug.utils import secure_filename
 
@@ -213,6 +214,21 @@ def setTimeOferta():
     return f"Tempo configurado com sucesso ({tempo})", 200
     
 
+@app.route('/timeOfertaTimeStamp/<timestamp>')
+def converter_timestamp(timestamp):
+    """
+    Esta função é acionada quando a URL /converter/<timestamp> é acessada.
+    Ela recebe o timestamp da URL, converte para uma data e retorna o resultado.
+    """
+    try:
+        data_hora = datetime.fromtimestamp(float(timestamp))
+        
+        # Formata o objeto datetime para uma string legível (Dia/Mês/Ano Hora:Minuto:Segundo)
+        data_formatada = data_hora.strftime('%d/%m/%Y %H:%M:%S')
+        
+        return data_formatada
+    except:
+        return "Erro ao obter timestamp", 500
 ##############################################################################################################
 oferta = threading.Thread(target=Lista_Oferta.main)
 oferta.daemon = True
