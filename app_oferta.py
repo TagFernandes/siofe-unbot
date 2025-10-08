@@ -1,6 +1,11 @@
+import os
+
+metrics_dir = "/tmp/prometheus_data_siofe"
+os.environ['PROMETHEUS_MULTIPROC_DIR'] = metrics_dir
+os.makedirs(metrics_dir, exist_ok=True)
+
 from flask import Flask, request, jsonify, g ,Response
 import time
-import os
 import json
 from functools import wraps
 import threading
@@ -31,77 +36,42 @@ trace.set_tracer_provider(tracer_provider)
 ##
 from data import logger
 ##
+from prometheus_flask_exporter import PrometheusMetrics
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
-FlaskInstrumentor().instrument_app(app)
+FlaskInstrumentor().instrument_app(app, excluded_urls="/metrics")
+metrics = PrometheusMetrics(app, path=None)
 
 
 
 #Metricas
 from prometheus_client import (
     Counter, Gauge, Histogram, 
-    generate_latest, CONTENT_TYPE_LATEST
+    generate_latest, CONTENT_TYPE_LATEST, CollectorRegistry, Counter, Gauge, generate_latest
 )
+from prometheus_client.multiprocess import MultiProcessCollector
 
-#Metricas
-REQUESTS_TOTAL = Counter(
-    'flask_requests_total',
-    'Total de requisições HTTP processadas.',
-    ['method', 'endpoint', 'status_code']
-)
 
-ERRORS_TOTAL = Counter(
-    'flask_errors_total',
-    'Total de erros encontrados na aplicação.',
-    ['error_type', 'endpoint']
-)
-REQUESTS_IN_PROGRESS = Gauge(
-    'flask_requests_in_progress',
-    'Número de requisições em progresso.',
-    ['endpoint']
-)
-
-REQUEST_LATENCY = Histogram(
-    'flask_request_latency_seconds',
-    'Latência das requisições HTTP.',
-    ['endpoint'],
-    buckets=[0.1, 0.2, 0.5, 1, 2, 5]
-)
+#
+if os.environ.get("PROMETHEUS_MULTIPROC_DIR") is None:
+    print(f"Atenção! A variável de ambiente metricas NÃO foi encontrada.")
+    logger.error("Atenção! A variável de ambiente metricas NÃO foi encontrada.")
 ###################################################################################
-
-
-@app.before_request
-def before_request():
-    """Executado antes de cada requisição."""
-    # Armazena o tempo de início no objeto 'g' do Flask, que é específico para cada requisição
-    g.start_time = time.time()
-    # Incrementa o gauge de requisições em progresso para o endpoint atual
-    REQUESTS_IN_PROGRESS.labels(endpoint=request.path).inc()
-
-@app.after_request
-def after_request(response):
-    """Executado após cada requisição."""
-    # Calcula a latência
-    latency = time.time() - g.start_time
-    # Observa a latência no histograma, com a label do endpoint
-    REQUEST_LATENCY.labels(endpoint=request.path).observe(latency)
-    
-    # Decrementa o gauge de requisições em progresso
-    REQUESTS_IN_PROGRESS.labels(endpoint=request.path).dec()
-    
-    # Incrementa o contador de requisições totais
-    REQUESTS_TOTAL.labels(
-        method=request.method,
-        endpoint=request.path,
-        status_code=response.status_code
-    ).inc()
-    
-    return response
 
 @app.route('/metrics')
 def metrics():
-    """Expõe as métricas no formato do Prometheus."""
-    return Response(generate_latest(), mimetype=CONTENT_TYPE_LATEST)
+    """
+    Agrega as métricas de todos os processos Gunicorn e as expõe.
+    """
+    from prometheus_client import CollectorRegistry, generate_latest
+    from prometheus_client.multiprocess import MultiProcessCollector
+    # Cria um registro para coletar as métricas
+    registry = CollectorRegistry()
+    # Adiciona o coletor multiprocesso que lê os arquivos do diretório
+    MultiProcessCollector(registry)
+    # Gera a saída no formato de texto que o Prometheus entende
+    data = generate_latest(registry)
+    return Response(data, mimetype='text/plain; version=0.0.4; charset=utf-8')
 
 
 ############################################################################################################

@@ -9,3 +9,4 @@ prometheus_client
 beautifulsoup4
 requests
 gunicorn
+prometheus-flask-exporter

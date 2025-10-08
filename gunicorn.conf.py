@@ -11,6 +11,8 @@ def when_ready(server):
 # (2 * n_cores) + 1 é uma boa regra.
 workers = 4
 
+preload_app = True
+
 # O endereço e a porta para vincular.
 # '0.0.0.0' torna o servidor acessível de qualquer IP na rede.
 bind = "0.0.0.0:5001"

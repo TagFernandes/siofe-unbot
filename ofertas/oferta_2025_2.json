@@ -810,7 +810,7 @@
             "Horario": "4M5  4T1"
         },
         "Turma 02": {
-            "Professor": "GABRIELA MACIEL DOS REIS",
+            "Professor": "JOSE ANTONIO ITURRI DE LA MATA",
             "Horario": "5M34"
         },
         "Turma 03": {
@@ -885,7 +885,7 @@
             "Horario": "7M23"
         },
         "Turma 02": {
-            "Professor": "ALDIRA GUIMARAES DUARTE DOMINGUEZ",
+            "Professor": "A DEFINIR DOCENTE",
             "Horario": "7T45"
         },
         "Turma 03": {
@@ -1332,11 +1332,11 @@
             "Horario": "7T45"
         },
         "Turma 02": {
-            "Professor": "PRISCILA ALMEIDA ANDRADE",
+            "Professor": "PRISCILA ALMEIDA ANDRADE e JOSE ANTONIO ITURRI DE LA MATA",
             "Horario": "7M23"
         },
         "Turma 03": {
-            "Professor": "JOSE ANTONIO ITURRI DE LA MATA",
+            "Professor": "PRISCILA ALMEIDA ANDRADE e JOSE ANTONIO ITURRI DE LA MATA",
             "Horario": "7M23"
         }
     },
@@ -1805,14 +1805,14 @@
     "FCE0343": {
         "Nome da Disciplina": "TÓPICOS ESPECIAIS EM SAÚDE COLETIVA 1",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "JOAO ANDRE SANTOS DE OLIVEIRA",
             "Horario": "4N12"
         }
     },
     "FCE0344": {
         "Nome da Disciplina": "TÓPICOS ESPECIAIS EM SAÚDE COLETIVA 2",
         "Turma 01": {
-            "Professor": "JOSE ANTONIO ITURRI DE LA MATA",
+            "Professor": "DAVID FRANCISCO VIEIRA LEITE",
             "Horario": "4M12"
         },
         "Turma 02": {
@@ -2288,7 +2288,7 @@
             "Horario": "7T23"
         },
         "Turma 03": {
-            "Professor": "AVELINY MANTOVAN LIMA",
+            "Professor": "AVELINY MANTOVAN LIMA e EDUARDO MAGALHAES DA SILVA",
             "Horario": "3T23"
         },
         "Turma 08": {
@@ -2622,7 +2622,7 @@
             "Horario": "7M1"
         },
         "Turma 05": {
-            "Professor": "JOSE ANTONIO ITURRI DE LA MATA",
+            "Professor": "DAVID FRANCISCO VIEIRA LEITE",
             "Horario": "7M1"
         },
         "Turma 06": {
@@ -3370,7 +3370,7 @@
     "FGA0134": {
         "Nome da Disciplina": "TÓPICOS ESPECIAIS DE ENGENHARIA DE SOFTWARE",
         "Turma 01": {
-            "Professor": "CARLA SILVA ROCHA AGUIAR",
+            "Professor": "CARLA SILVA ROCHA AGUIAR e ISAQUE ALVES DE LIMA",
             "Horario": "24T23"
         }
     },
@@ -3952,7 +3952,7 @@
             "Horario": "24T45"
         },
         "Turma 03": {
-            "Professor": "WANDER CLEBER MARIA PEREIRA DA SILVA e RICARDO AJAX DIAS KOSLOSKI",
+            "Professor": "HILMER RODRIGUES NERI e WANDER CLEBER MARIA PEREIRA DA SILVA e RICARDO AJAX DIAS KOSLOSKI",
             "Horario": "24T45"
         },
         "Turma 04": {
@@ -4019,7 +4019,7 @@
             "Horario": "46M34"
         },
         "Turma 03": {
-            "Professor": "LUCAS URSULINO BOAVENTURA e RICARDO AJAX DIAS KOSLOSKI",
+            "Professor": "HILMER RODRIGUES NERI e LUCAS URSULINO BOAVENTURA e RICARDO AJAX DIAS KOSLOSKI",
             "Horario": "7M1234"
         }
     },
@@ -4134,7 +4134,7 @@
     "CDS0010": {
         "Nome da Disciplina": "TRABALHO INTERDISCIPLINAR INTEGRADO 1",
         "Turma 01": {
-            "Professor": "AMANDA FREDERICO MORTATI",
+            "Professor": "AMANDA FREDERICO MORTATI e NELSON EDUARDO BERNAL DAVALOS",
             "Horario": "6N34"
         }
     },
@@ -4143,6 +4143,20 @@
         "Turma 01": {
             "Professor": "BERNARDO RAMOS SIMOES CORREA",
             "Horario": "35N34"
+        }
+    },
+    "CDS0012": {
+        "Nome da Disciplina": "POLÍTICAS PÚBLICAS E MEIO AMBIENTE",
+        "Turma 01": {
+            "Professor": "MAURO GUILHERME MAIDANA CAPPELLARO",
+            "Horario": "6N1234"
+        }
+    },
+    "CDS0013": {
+        "Nome da Disciplina": "POPULAÇÃO E MEIO AMBIENTE",
+        "Turma 01": {
+            "Professor": "BERNARDO RAMOS SIMOES CORREA",
+            "Horario": "6N1234"
         }
     },
     "CDS0014": {
@@ -4457,7 +4471,7 @@
     "CEM0097": {
         "Nome da Disciplina": "DIREITOS HUMANOS E CIDADANIA",
         "Turma 01": {
-            "Professor": "LUIZ HENRIQUE REGGI PECORA",
+            "Professor": "CLAUDIANE SILVA CARVALHO e LUIZ HENRIQUE REGGI PECORA",
             "Horario": "5N1234"
         }
     },
@@ -4547,11 +4561,32 @@
             "Horario": "7T2345"
         }
     },
+    "DPG0157": {
+        "Nome da Disciplina": "INTRODUÇÃO AO MÉTODO DOS ELEMENTOS DE CONTORNO",
+        "Turma 01": {
+            "Professor": "EDER LIMA DE ALBUQUERQUE",
+            "Horario": "46T23"
+        }
+    },
+    "DPG0216": {
+        "Nome da Disciplina": "DINÂMICA DE ESTRUTURAS",
+        "Turma 01": {
+            "Professor": "ADRIANO TODOROVIC FABRO",
+            "Horario": "24M34"
+        }
+    },
     "DPG0227": {
         "Nome da Disciplina": "INTRODUÇÃO À PROBABILIDADE E APLICAÇÕES",
         "Turma 01": {
             "Professor": "DANIELE DA SILVA BARATELA MARTINS NETO",
             "Horario": "3M12 5M34 6M3"
+        }
+    },
+    "DPG0248": {
+        "Nome da Disciplina": "COMPORTAMENTO MECÂNICO DOS SÓLIDOS",
+        "Turma 01": {
+            "Professor": "RAPHAEL ARAUJO CARDOSO",
+            "Horario": "46M34"
         }
     },
     "DPG0275": {
@@ -4561,11 +4596,54 @@
             "Horario": "2T23"
         }
     },
+    "DPG0277": {
+        "Nome da Disciplina": "METALURGIA FÍSICA",
+        "Turma 01": {
+            "Professor": "COSME ROBERTO MOREIRA DA SILVA",
+            "Horario": "35T23"
+        }
+    },
+    "DPG0324": {
+        "Nome da Disciplina": "TÓPICOS ESPECIAIS 1 EM CIÊNCIAS MECÂNICAS",
+        "Turma 01": {
+            "Professor": "EUGENIO LIBORIO FEITOSA FORTALEZA",
+            "Horario": "6M1234"
+        },
+        "Turma 02": {
+            "Professor": "CARLOS ALBERTO GURGEL VERAS",
+            "Horario": "35T23"
+        },
+        "Turma 03": {
+            "Professor": "ANDRE VON BORRIES LOPES",
+            "Horario": "6T2345"
+        }
+    },
     "DPG0394": {
         "Nome da Disciplina": "BARRAGENS",
         "Turma 01": {
             "Professor": "ANDRE PACHECO DE ASSIS",
             "Horario": "6M12"
+        }
+    },
+    "DPG0401": {
+        "Nome da Disciplina": "TEORIA DA TRADUÇÃO",
+        "Turma 01": {
+            "Professor": "HENRYK SIEWIERSKI",
+            "Horario": "2T2345"
+        }
+    },
+    "DPG0424": {
+        "Nome da Disciplina": "TERMODINÂMICA CLÁSSICA",
+        "Turma 01": {
+            "Professor": "SIMONE MONTEIRO E SILVA",
+            "Horario": "3M1234"
+        }
+    },
+    "DPG0433": {
+        "Nome da Disciplina": "VIBRAÇÕES MECÂNICAS",
+        "Turma 01": {
+            "Professor": "ALINE SOUZA DE PAULA",
+            "Horario": "3T2345"
         }
     },
     "DPG0713": {
@@ -4582,11 +4660,53 @@
             "Horario": "3M12"
         }
     },
+    "DPG0782": {
+        "Nome da Disciplina": "ENERGIA E AMBIENTE",
+        "Turma 01": {
+            "Professor": "EDGAR AMARAL SILVEIRA",
+            "Horario": "4M1234"
+        }
+    },
+    "DPG0841": {
+        "Nome da Disciplina": "TRANSFERÊNCIA DE CALOR AVANÇADA",
+        "Turma 01": {
+            "Professor": "RODRIGO BENTO REBOUÇAS e TAYGOARA FELAMINGO DE OLIVEIRA",
+            "Horario": "46T23"
+        }
+    },
+    "DPG0849": {
+        "Nome da Disciplina": "FADIGA MULTIAXIAL",
+        "Turma 01": {
+            "Professor": "FABIO COMES DE CASTRO",
+            "Horario": "35T45"
+        }
+    },
     "DPG1011": {
         "Nome da Disciplina": "MEDIDA E INTEGRAÇÃO",
         "Turma 01": {
             "Professor": "MAYRA SOARES COSTA RODRIGUES",
             "Horario": "246T23"
+        }
+    },
+    "DPG1046": {
+        "Nome da Disciplina": "GRUPOS PROFINITOS",
+        "Turma 01": {
+            "Professor": "PAVEL ZALESSKI",
+            "Horario": "24M34"
+        }
+    },
+    "DPG1058": {
+        "Nome da Disciplina": "TÉCNICAS DE CARACTERIZAÇÃO MICRO-ESTRUTURAL E MECÂNICA",
+        "Turma 01": {
+            "Professor": "ALYSSON MARTINS ALMEIDA SILVA",
+            "Horario": "3M1234"
+        }
+    },
+    "DPG1119": {
+        "Nome da Disciplina": "MÉTODOS NUMÉRICOS EM CIÊNCIAS MECÂNICAS",
+        "Turma 01": {
+            "Professor": "RAFAEL GABLER GONTIJO",
+            "Horario": "2T2345"
         }
     },
     "DPG1161": {
@@ -4596,11 +4716,25 @@
             "Horario": "56T23"
         }
     },
+    "DPG1244": {
+        "Nome da Disciplina": "DINÂMICA DAS ESTRUTURAS 2",
+        "Turma 01": {
+            "Professor": "LINEU JOSE PEDROSO",
+            "Horario": "35T45"
+        }
+    },
     "DPG1254": {
         "Nome da Disciplina": "REGRESSÃO ESPACIAL",
         "Turma 01": {
             "Professor": "ALAN RICARDO DA SILVA",
             "Horario": "5M34"
+        }
+    },
+    "DPG1341": {
+        "Nome da Disciplina": "INTRODUÇÃO AOS ESTUDOS DE TRANSPORTES",
+        "Turma 01": {
+            "Professor": "MICHELLE ANDRADE",
+            "Horario": "2T6  2N1"
         }
     },
     "DPG1344": {
@@ -4615,6 +4749,69 @@
         "Turma 01": {
             "Professor": "MARIANA PENNA LIMA VITENTI",
             "Horario": "4M5  4T1"
+        }
+    },
+    "DPG1346": {
+        "Nome da Disciplina": "TÓPICOS ESPECIAIS 2 EM CIÊNCIAS MECÂNICAS",
+        "Turma 01": {
+            "Professor": "JORGE LUIZ DE ALMEIDA FERREIRA",
+            "Horario": "2M1234"
+        }
+    },
+    "DPG1347": {
+        "Nome da Disciplina": "GERÊNCIA DE PAVIMENTO",
+        "Turma 01": {
+            "Professor": "FABIO ZANCHETTA",
+            "Horario": "3T45"
+        }
+    },
+    "DPG1348": {
+        "Nome da Disciplina": "METODOLOGIA DE PESQUISA EM TRANSPORTES",
+        "Turma 01": {
+            "Professor": "FABIANA SERRA DE ARRUDA",
+            "Horario": "24M34"
+        }
+    },
+    "DPG1349": {
+        "Nome da Disciplina": "INTRODUÇÃO À LOGÍSTICA",
+        "Turma 01": {
+            "Professor": "SERGIO RONALDO GRANEMANN",
+            "Horario": "4T45"
+        }
+    },
+    "DPG1350": {
+        "Nome da Disciplina": "ATIVIDADES PROGRAMADAS EM PESQUISA",
+        "Turma 01": {
+            "Professor": "FRANCISCO JOSE RENGIFO HERRERA",
+            "Horario": "7T23"
+        }
+    },
+    "DPG1351": {
+        "Nome da Disciplina": "HIDROGEOLOGIA AVANÇADA",
+        "Turma 01": {
+            "Professor": "JOSE ELOI GUIMARAES CAMPOS",
+            "Horario": "4M1234"
+        }
+    },
+    "DPG1352": {
+        "Nome da Disciplina": "TRABALHO E FORMAÇÃO DOCENTE",
+        "Turma 01": {
+            "Professor": "KATIA AUGUSTA CURADO PINHEIRO CORDEIRO DA SILVA",
+            "Horario": "4T2345"
+        }
+    },
+    "DPG1353": {
+        "Nome da Disciplina": "COMPORTAMENTO MECÂNICO DE MATERIAIS",
+        "Turma 01": {
+            "Professor": "THIAGO DE CARVALHO RODRIGUES DOCA",
+            "Horario": "35M5  35T1"
+        }
+    },
+    "DPG1354": {
+        "Nome da Disciplina": "SISTEMAS BIOINSPIRADOS APLICADOS A ENGENHARIA",
+        "Turma 01": {
+            "Professor": "DANIEL MAURICIO MUNOZ ARBOLEDA",
+            "Horario": "6T2345"
         }
     },
     "DEX0197": {
@@ -5351,7 +5548,7 @@
     "DIN0034": {
         "Nome da Disciplina": "ESTUDO DA FORMA",
         "Turma 01": {
-            "Professor": "FLAVIA MARIETA MAGALHAES RIGONI",
+            "Professor": "CAROLINE MIWA NEMOTO",
             "Horario": "2M1234"
         }
     },
@@ -5432,7 +5629,7 @@
     "DIN0049": {
         "Nome da Disciplina": "INTRODUCAO AO DESIGN",
         "Turma 01": {
-            "Professor": "MARISA COBBE MAASS",
+            "Professor": "CAROLINE MIWA NEMOTO",
             "Horario": "3M1234"
         }
     },
@@ -5467,7 +5664,7 @@
     "DIN0110": {
         "Nome da Disciplina": "TÓPICOS ESPECIAIS EM DESIGN 2",
         "Turma 05": {
-            "Professor": "MARÍLIA POSSIDONE CÉSAR",
+            "Professor": "MARILIA POSSIDONE CESAR",
             "Horario": "6T2345"
         }
     },
@@ -5483,13 +5680,6 @@
         "Turma 01": {
             "Professor": "BRENO TENORIO RAMALHO DE ABREU",
             "Horario": "3M2345"
-        }
-    },
-    "DPG0782": {
-        "Nome da Disciplina": "ENERGIA E AMBIENTE",
-        "Turma 01": {
-            "Professor": "EDGAR AMARAL SILVEIRA",
-            "Horario": "4M1234"
         }
     },
     "ENM0027": {
@@ -6299,7 +6489,7 @@
     "FAR0010": {
         "Nome da Disciplina": "TÉCNICA INSTRUMENTAL FARMACÊUTICA",
         "Turma 01": {
-            "Professor": "NAIRA DA SILVA CAMPOS",
+            "Professor": "NAIRA DA SILVA CAMPOS e JOAO PAULO BARRETO DE SOUSA",
             "Horario": "5N12"
         },
         "Turma 02": {
@@ -6310,7 +6500,7 @@
     "FAR0016": {
         "Nome da Disciplina": "INTRODUÇÃO A CIÊNCIAS FARMACÊUTICAS",
         "Turma 02": {
-            "Professor": "GUILHERME RABELO DE SOUZA",
+            "Professor": "DANIELE BOBROWSKI RODRIGUES e GUILHERME RABELO DE SOUZA e ROBERTA DOS SANTOS RIBEIRO",
             "Horario": "7M345  7T1"
         }
     },
@@ -6321,8 +6511,8 @@
             "Horario": "2357M1234"
         },
         "Turma 02": {
-            "Professor": "MARIA CHRISTINA DOS SANTOS VERDAM e RAFAEL SANTOS SANTANA",
-            "Horario": "7M1234  246T6  246N123"
+            "Professor": "RAFAEL SANTOS SANTANA",
+            "Horario": "7M1234  234N12"
         },
         "Turma 04": {
             "Professor": "MARIA CHRISTINA DOS SANTOS VERDAM e RAFAEL SANTOS SANTANA",
@@ -6487,11 +6677,11 @@
     "FAR0031": {
         "Nome da Disciplina": "FARMACOLOGIA",
         "Turma 01": {
-            "Professor": "ERICA NEGRINI LIA e GUILHERME RABELO DE SOUZA e DJANE BRAZ DUARTE",
+            "Professor": "ERICA NEGRINI LIA e GUILHERME RABELO DE SOUZA e DJANE BRAZ DUARTE e ROBERTA DOS SANTOS RIBEIRO",
             "Horario": "35T23"
         },
         "Turma 02": {
-            "Professor": "ANDREA BARRETTO MOTOYAMA e INGRID FERREIRA METZGER",
+            "Professor": "ANDREA BARRETTO MOTOYAMA e INGRID FERREIRA METZGER e ROBERTA DOS SANTOS RIBEIRO",
             "Horario": "2T23 6T45"
         }
     },
@@ -6738,7 +6928,7 @@
     "FAR0134": {
         "Nome da Disciplina": "ECONOMIA E GESTÃO DE EMPRESAS FARMACÊUTICAS",
         "Turma 01": {
-            "Professor": "HELAINE CARNEIRO CAPUCHO",
+            "Professor": "MARIA CHRISTINA DOS SANTOS VERDAM",
             "Horario": "6N34"
         },
         "Turma 02": {
@@ -6936,7 +7126,7 @@
     "FAR0169": {
         "Nome da Disciplina": "VIGILÂNCIA SANITÁRIA APLICADA À FARMÁCIA",
         "Turma 01": {
-            "Professor": "HELAINE CARNEIRO CAPUCHO",
+            "Professor": "MARIA CHRISTINA DOS SANTOS VERDAM",
             "Horario": "6N12"
         },
         "Turma 02": {
@@ -7249,13 +7439,6 @@
         "Turma 01": {
             "Professor": "ANA PAULA ANTUNES MARTINS",
             "Horario": "24N34"
-        }
-    },
-    "JOR0001": {
-        "Nome da Disciplina": "COMUNICAÇÃO, INFORMAÇÃO E COMPUTAÇÃO : FUNDAMENTOS E APLICAÇÃO",
-        "Turma 01": {
-            "Professor": "MARCIA MARQUES",
-            "Horario": "7M34  24N12"
         }
     },
     "JOR0002": {
@@ -7591,7 +7774,7 @@
             "Horario": "24N12"
         },
         "Turma 05": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "MELISSA DE SOUSA LUIZ",
             "Horario": "2N12 6N34"
         },
         "Turma 06": {
@@ -7599,7 +7782,7 @@
             "Horario": "24T45"
         },
         "Turma 07": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "JEAN CARLOS DE AGUIAR LELIS",
             "Horario": "24T45"
         },
         "Turma 08": {
@@ -7657,11 +7840,11 @@
             "Horario": "2N12 35N34"
         },
         "Turma 08": {
-            "Professor": "WILLIAN CINTRA DA SILVA",
+            "Professor": "MELISSA DE SOUSA LUIZ e WILLIAN CINTRA DA SILVA",
             "Horario": "2N12 35N34"
         },
         "Turma 09": {
-            "Professor": "WALTEIR DE PAULA FERREIRA e MAURO MORAES ALVES PATRAO",
+            "Professor": "WILLIAN CINTRA DA SILVA e WALTEIR DE PAULA FERREIRA",
             "Horario": "2N12 35N34"
         },
         "Turma 10": {
@@ -7717,7 +7900,7 @@
             "Horario": "356M12"
         },
         "Turma 23": {
-            "Professor": "MAURO MORAES ALVES PATRAO",
+            "Professor": "MELISSA DE SOUSA LUIZ e MAURO MORAES ALVES PATRAO",
             "Horario": "246N12"
         },
         "Turma 24": {
@@ -8537,8 +8720,8 @@
             "Horario": "7T123456  7N12"
         },
         "Turma 11": {
-            "Professor": "A DEFINIR DOCENTE",
-            "Horario": "7T123456"
+            "Professor": "HAYDEE GLORIA CRUZ CARUSO",
+            "Horario": "7T123456  7N1"
         },
         "Turma 12": {
             "Professor": "A DEFINIR DOCENTE",
@@ -8595,7 +8778,7 @@
             "Horario": "7T123456  7N12"
         },
         "Turma 06": {
-            "Professor": "TANIA MARA CAMPOS DE ALMEIDA",
+            "Professor": "TANIA MARA CAMPOS DE ALMEIDA e NANAH SANCHES VIEIRA",
             "Horario": "7T123456  7N12"
         },
         "Turma 07": {
@@ -8619,7 +8802,7 @@
             "Horario": "7M12345  7T123"
         },
         "Turma 12": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "NANAH SANCHES VIEIRA",
             "Horario": "7T123456  7N12"
         },
         "Turma 13": {
@@ -8667,8 +8850,8 @@
     "SOL0134": {
         "Nome da Disciplina": "TEORIAS SOCIOLÓGICAS CONTEMPORÂNEAS 1",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
-            "Horario": "357T45"
+            "Professor": "MATHEUS ALMEIDA PEREIRA RIBEIRO",
+            "Horario": "35T45"
         }
     },
     "SOL0139": {
@@ -8725,7 +8908,7 @@
             "Horario": "67N1234"
         },
         "Turma 03": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "THOMAS EDSON DE JESUS THEODORO AMORIM",
             "Horario": "67N1234"
         },
         "Turma 04": {
@@ -8745,7 +8928,7 @@
             "Horario": "67N1234"
         },
         "Turma 08": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "DANIELA FELIX MARTINS KAWABE",
             "Horario": "7T123456  7N12"
         },
         "Turma 09": {
@@ -8883,7 +9066,7 @@
     "ADM0020": {
         "Nome da Disciplina": "TÓPICOS EM GESTÃO DA TECNOLOGIA",
         "Turma 01": {
-            "Professor": "RAFAEL RABELO NUNES",
+            "Professor": "EDVAN GOMES DA SILVA",
             "Horario": "6T45"
         }
     },
@@ -9086,7 +9269,7 @@
     "ADM0157": {
         "Nome da Disciplina": "ESTRATÉGIA ORGANIZACIONAL",
         "Turma 01": {
-            "Professor": "OLINDA MARIA GOMES LESSES",
+            "Professor": "OLINDA MARIA GOMES LESSES e JUAN CARLO MENDES DA ROCHA VERAS",
             "Horario": "35T23"
         },
         "Turma 03": {
@@ -9261,7 +9444,7 @@
     "ADM0273": {
         "Nome da Disciplina": "PROJETO DE PESQUISA EM ADMINISTRAÇÃO",
         "Turma 01": {
-            "Professor": "DORIANA DAROIT",
+            "Professor": "CLARISSA MELO LIMA",
             "Horario": "24M5  24T1"
         },
         "Turma 02": {
@@ -9321,7 +9504,7 @@
             "Horario": "35M5  35T1"
         },
         "Turma 16": {
-            "Professor": "SILVIA ARAUJO DOS REIS",
+            "Professor": "A DEFINIR DOCENTE",
             "Horario": "67T12"
         },
         "Turma 17": {
@@ -9357,7 +9540,7 @@
             "Horario": "24M5  24T1"
         },
         "Turma 25": {
-            "Professor": "MARCUS VINICIUS ARAUJO SOARES",
+            "Professor": "MARCUS VINICIUS SOARES SIQUEIRA",
             "Horario": "24T6  24N1"
         },
         "Turma 26": {
@@ -9381,7 +9564,7 @@
             "Horario": "7M1234"
         },
         "Turma 31": {
-            "Professor": "VIVIAN DOS SANTOS MIRANDA",
+            "Professor": "ANA CAROLINA FERREIRA DE SIQUEIRA",
             "Horario": "7M1234"
         },
         "Turma 32": {
@@ -9433,7 +9616,7 @@
             "Horario": "7M1234"
         },
         "Turma 45": {
-            "Professor": "DEBORA DORNELES BAREM",
+            "Professor": "VIVIAN DOS SANTOS MIRANDA",
             "Horario": "7M1234"
         },
         "Turma 46": {
@@ -9448,7 +9631,7 @@
     "ADM0297": {
         "Nome da Disciplina": "ELABORAÇÃO DE TRABALHO DE CURSO",
         "Turma 01": {
-            "Professor": "PEDRO PAULO MURCE MENEZES CAVALCANTE",
+            "Professor": "DANIELLE SANDI PINHEIRO",
             "Horario": "7T1234"
         },
         "Turma 02": {
@@ -9464,7 +9647,7 @@
             "Horario": "7T1234"
         },
         "Turma 05": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "PAULO ROBERTO DE SOUZA ROCHA JUNIOR",
             "Horario": "6M345  6T1"
         },
         "Turma 06": {
@@ -9480,7 +9663,7 @@
             "Horario": "7T1234"
         },
         "Turma 09": {
-            "Professor": "ALDERY SILVEIRA JUNIOR",
+            "Professor": "CLARISSA MELO LIMA",
             "Horario": "7T1234"
         },
         "Turma 10": {
@@ -9504,7 +9687,7 @@
             "Horario": "35M5  35T1"
         },
         "Turma 15": {
-            "Professor": "MAIRA ROCHA SANTOS",
+            "Professor": "CAIO CESAR DE MEDEIROS COSTA",
             "Horario": "7M1234"
         },
         "Turma 16": {
@@ -9528,7 +9711,7 @@
             "Horario": "7N1234"
         },
         "Turma 21": {
-            "Professor": "CARLA PEIXOTO BORGES",
+            "Professor": "SOLANGE ALFINITO",
             "Horario": "35M5  35T1"
         },
         "Turma 22": {
@@ -9616,7 +9799,7 @@
             "Horario": "7T2345"
         },
         "Turma 43": {
-            "Professor": "MARCUS VINICIUS ARAUJO SOARES",
+            "Professor": "MARCUS VINICIUS SOARES SIQUEIRA",
             "Horario": "7T6  7N123"
         },
         "Turma 45": {
@@ -9743,7 +9926,7 @@
     "ADM0317": {
         "Nome da Disciplina": "ADMINISTRAÇÃO DA QUALIDADE",
         "Turma 01": {
-            "Professor": "OLINDA MARIA GOMES LESSES",
+            "Professor": "PAULO ROBERTO DE SOUZA ROCHA JUNIOR",
             "Horario": "7M1234"
         }
     },
@@ -9891,7 +10074,7 @@
             "Horario": "35T45"
         },
         "Turma 04": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "PAULA BALDUINO DE MELO",
             "Horario": "35M12"
         }
     },
@@ -9937,7 +10120,7 @@
     "DAN0061": {
         "Nome da Disciplina": "ESTUDOS AFRO-BRASILEIROS",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "PAULA BALDUINO DE MELO",
             "Horario": "46M12"
         }
     },
@@ -11195,7 +11378,7 @@
         },
         "Turma 41": {
             "Professor": "ALINIE ROCHA MENDES",
-            "Horario": "7M12"
+            "Horario": "7T45"
         }
     },
     "CCA0173": {
@@ -12205,7 +12388,7 @@
             "Horario": "35M12"
         },
         "Turma 11": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "WANDEMBERG VENCESLAU ROSENDO DOS SANTOS",
             "Horario": "35T23"
         },
         "Turma 12": {
@@ -12314,7 +12497,7 @@
             "Horario": "35N34"
         },
         "Turma 02": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "WANDEMBERG VENCESLAU ROSENDO DOS SANTOS",
             "Horario": "35T45"
         }
     },
@@ -12631,12 +12814,8 @@
             "Horario": "23456M12345"
         },
         "Turma 06": {
-            "Professor": "ALISSON FERNANDES BOLINA",
+            "Professor": "BRUNA CRISTINA DE ARAUJO LIMA",
             "Horario": "23456M12345"
-        },
-        "Turma 07": {
-            "Professor": "ALISSON FERNANDES BOLINA",
-            "Horario": "23456M12345  23456T1"
         },
         "Turma 08": {
             "Professor": "ALINE OLIVEIRA SILVEIRA",
@@ -12647,7 +12826,7 @@
             "Horario": "23456T123456"
         },
         "Turma 10": {
-            "Professor": "PAULA ELAINE DINIZ DOS REIS",
+            "Professor": "MAYNARA FERNANDA CARVALHO BARRETO",
             "Horario": "23456M12345"
         },
         "Turma 11": {
@@ -12695,7 +12874,7 @@
             "Horario": "23456M12345"
         },
         "Turma 23": {
-            "Professor": "RAWANY TEIXEIRA CARVALHO",
+            "Professor": "SIMONE ROQUE MAZONI",
             "Horario": "23456M12345"
         },
         "Turma 24": {
@@ -13131,7 +13310,7 @@
             "Horario": "56M1234"
         },
         "Turma 03": {
-            "Professor": "RAWANY TEIXEIRA CARVALHO",
+            "Professor": "SIMONE ROQUE MAZONI",
             "Horario": "56M1234"
         },
         "Turma 04": {
@@ -13646,6 +13825,14 @@
         "Turma 16": {
             "Professor": "ANDREIA DE ALMEIDA e RICARDO TEZINI MINOTI",
             "Horario": "2M12"
+        },
+        "Turma 17": {
+            "Professor": "OSCAR DE MORAES CORDEIRO NETTO",
+            "Horario": "7M12"
+        },
+        "Turma 18": {
+            "Professor": "SERGIO KOIDE",
+            "Horario": "7M12"
         }
     },
     "ENC0031": {
@@ -14920,7 +15107,7 @@
             "Horario": "2T23"
         },
         "Turma 03": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "WILLIAM HUMBERTO CUELLAR SANCHEZ",
             "Horario": "4T45"
         },
         "Turma 05": {
@@ -14936,11 +15123,11 @@
             "Horario": "4M12"
         },
         "Turma 09": {
-            "Professor": "EDUARDO BEZERRA RUFINO FERREIRA PAIVA",
+            "Professor": "WILLIAM HUMBERTO CUELLAR SANCHEZ",
             "Horario": "6T45"
         },
         "Turma 10": {
-            "Professor": "EDUARDO BEZERRA RUFINO FERREIRA PAIVA",
+            "Professor": "WILLIAM HUMBERTO CUELLAR SANCHEZ",
             "Horario": "6T23"
         }
     },
@@ -15482,15 +15669,15 @@
             "Horario": "5T23"
         },
         "Turma 06": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "WILLIAM HUMBERTO CUELLAR SANCHEZ",
             "Horario": "2M12"
         },
         "Turma 07": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "WILLIAM HUMBERTO CUELLAR SANCHEZ",
             "Horario": "2T45"
         },
         "Turma 08": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "WILLIAM HUMBERTO CUELLAR SANCHEZ",
             "Horario": "4T23"
         }
     },
@@ -15574,7 +15761,7 @@
     "EFL0026": {
         "Nome da Disciplina": "SECAGEM E PRESERVACAO DE MADEIRAS",
         "Turma 01": {
-            "Professor": "JOSE HENRIQUE CAMARGO PACE",
+            "Professor": "DIEGO MARTINS STANGERLIN",
             "Horario": "3M1234"
         }
     },
@@ -15885,11 +16072,11 @@
             "Horario": "246T45"
         },
         "Turma 07": {
-            "Professor": "LEANDRO TAVARES CORREIA",
+            "Professor": "CAROLINA MUSSO e LEANDRO TAVARES CORREIA",
             "Horario": "246N12"
         },
         "Turma 08": {
-            "Professor": "LEANDRO TAVARES CORREIA",
+            "Professor": "CAROLINA MUSSO e LEANDRO TAVARES CORREIA",
             "Horario": "246N34"
         }
     },
@@ -16118,7 +16305,7 @@
     "FIL0004": {
         "Nome da Disciplina": "ESTÁGIO PEDAGÓGICO SUPERVISIONADO 1",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "EDER DAVID DE FREITAS MELO",
             "Horario": "35N123"
         },
         "Turma 02": {
@@ -16421,11 +16608,11 @@
     "FIL0184": {
         "Nome da Disciplina": "ÉTICA E EDUCAÇÃO",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "EDER DAVID DE FREITAS MELO",
             "Horario": "24N12"
         },
         "Turma 02": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "EDER DAVID DE FREITAS MELO",
             "Horario": "24T45"
         }
     },
@@ -17026,7 +17213,7 @@
     "HIS0218": {
         "Nome da Disciplina": "LABORATÓRIO DE ENSINO DE HISTÓRIA 2 (ESTÁGIO SUPERVISIONADO)",
         "Turma 01": {
-            "Professor": "SUSANE RODRIGUES DE OLIVEIRA e MAURO CEZAR COELHO",
+            "Professor": "MARILEA DE ALMEIDA e MAURO CEZAR COELHO",
             "Horario": "26N1234"
         },
         "Turma 02": {
@@ -17430,7 +17617,7 @@
     "LIP0096": {
         "Nome da Disciplina": "LEITURA E PRODUÇÃO DE TEXTOS",
         "Turma 01": {
-            "Professor": "JULIANA DE FREITAS DIAS e FRANCISCA CORDELIA OLIVEIRA DA SILVA",
+            "Professor": "FRANCISCA CORDELIA OLIVEIRA DA SILVA",
             "Horario": "6M1234"
         }
     },
@@ -17772,11 +17959,11 @@
             "Horario": "24M34"
         },
         "Turma 04": {
-            "Professor": "DAVI PEREIRA DA SILVA JUNIOR",
+            "Professor": "GLAUCIO DE CASTRO JUNIOR",
             "Horario": "24M5  24T1"
         },
         "Turma 06": {
-            "Professor": "DAVI PEREIRA DA SILVA JUNIOR",
+            "Professor": "GLAUCIO DE CASTRO JUNIOR",
             "Horario": "35M34"
         },
         "Turma 07": {
@@ -17820,7 +18007,7 @@
             "Horario": "35T23"
         },
         "Turma 21": {
-            "Professor": "DAVI PEREIRA DA SILVA JUNIOR",
+            "Professor": "GLAUCIO DE CASTRO JUNIOR",
             "Horario": "6M1234"
         },
         "Turma 26": {
@@ -17828,7 +18015,7 @@
             "Horario": "24M12"
         },
         "Turma 28": {
-            "Professor": "DAVI PEREIRA DA SILVA JUNIOR",
+            "Professor": "GLAUCIO DE CASTRO JUNIOR",
             "Horario": "35M12"
         }
     },
@@ -18003,7 +18190,7 @@
     "LET0048": {
         "Nome da Disciplina": "LABORATORIO DE TEXTO 2",
         "Turma 01": {
-            "Professor": "PEDRO HENRIQUE OLIVEIRA DE ALCANTARA",
+            "Professor": "PEDRO HENRIQUE OLIVEIRA DE ALCANTARA e NORMA DIANA HAMILTON",
             "Horario": "35M34"
         }
     },
@@ -18190,14 +18377,14 @@
     "LET0087": {
         "Nome da Disciplina": "LINGUA INGLESA 4",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "HISLLA SUELLEN MOREIRA RAMALHO",
             "Horario": "35M12"
         }
     },
     "LET0088": {
         "Nome da Disciplina": "LINGUA INGLESA 5",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "HISLLA SUELLEN MOREIRA RAMALHO",
             "Horario": "35M34"
         }
     },
@@ -18595,7 +18782,7 @@
     "LET0320": {
         "Nome da Disciplina": "MORFOSSINTAXE DO FRANCES",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "HYANNA CAROLLYNE DIAS DE MEDEIROS",
             "Horario": "24T23"
         }
     },
@@ -18653,7 +18840,7 @@
     "LET0331": {
         "Nome da Disciplina": "INGLÊS INSTRUMENTAL 1",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "HISLLA SUELLEN MOREIRA RAMALHO",
             "Horario": "24M12"
         },
         "Turma 02": {
@@ -18970,7 +19157,7 @@
             "Horario": "35T23"
         },
         "Turma 02": {
-            "Professor": "JOSELY BOGO MACHADO SONCELLA",
+            "Professor": "HYANNA CAROLLYNE DIAS DE MEDEIROS e JOSELY BOGO MACHADO SONCELLA",
             "Horario": "24T45"
         },
         "Turma 03": {
@@ -18978,11 +19165,11 @@
             "Horario": "35M34"
         },
         "Turma 04": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "HYANNA CAROLLYNE DIAS DE MEDEIROS",
             "Horario": "35T23"
         },
         "Turma 05": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "HYANNA CAROLLYNE DIAS DE MEDEIROS",
             "Horario": "35T45"
         }
     },
@@ -19124,6 +19311,10 @@
     },
     "LET0554": {
         "Nome da Disciplina": "TRABALHO DE CONCLUSÃO DE CURSO: INGLÊS",
+        "Turma 01": {
+            "Professor": "CLAUDIO ROBERTO VIEIRA BRAGA",
+            "Horario": "7M12345"
+        },
         "Turma 03": {
             "Professor": "JOARA MARTIN BERGSLEITHNER",
             "Horario": "2N1234 3N34"
@@ -19177,14 +19368,14 @@
     "LET0763": {
         "Nome da Disciplina": "LÍNGUA INGLESA 1",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "MICHELLE ANDRESSA ALVARENGA DE SOUZA",
             "Horario": "35T45"
         }
     },
     "LET0764": {
         "Nome da Disciplina": "LÍNGUA INGLESA 2",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "MICHELLE ANDRESSA ALVARENGA DE SOUZA",
             "Horario": "35T23"
         }
     },
@@ -19856,8 +20047,8 @@
     "MUS0218": {
         "Nome da Disciplina": "CANTO 1",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
-            "Horario": "2M12"
+            "Professor": "BEATRIZ DUARTE PEREIRA DE MAGALHAES CASTRO",
+            "Horario": "7M34"
         }
     },
     "MUS0254": {
@@ -21254,7 +21445,7 @@
     "MUS0802": {
         "Nome da Disciplina": "INSTRUMENTO PRINCIPAL CANTO POPULAR 4",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "ULIANA DIAS CAMPOS FERLIM",
             "Horario": "4T45"
         },
         "Turma 02": {
@@ -21799,7 +21990,7 @@
     "ODT0013": {
         "Nome da Disciplina": "CLÍNICA ODONTOLÓGICA 7",
         "Turma 01": {
-            "Professor": "ALINE URSULA ROCHA FERNANDES e ANA LIVIA GOMES CORNELIO e FLAVIANA SOARES ROCHA e JACY RIBEIRO DE CARVALHO JUNIOR e NEWTON CHAVES BRAGA e LEONARDO FERNANDES DA CUNHA e LUCAS FERNANDO TABATA e FERNANDA CRISTINA PIMENTEL GARCIA e RODRIGO ANTONIO DE MEDEIROS e EVELYN MIKAELA KOGAWA e ROBERTO MACHADO CRUZ e LILIANA VICENTE MELO DE LUCAS REZENDE e JOAO VITOR DOS SANTOS CANELLAS",
+            "Professor": "ALINE URSULA ROCHA FERNANDES e FERNANDA CRISTINA PIMENTEL GARCIA e ANA LIVIA GOMES CORNELIO e RODRIGO ANTONIO DE MEDEIROS e FLAVIANA SOARES ROCHA e JACY RIBEIRO DE CARVALHO JUNIOR e EVELYN MIKAELA KOGAWA e ROBERTO MACHADO CRUZ e LILIANA VICENTE MELO DE LUCAS REZENDE e NEWTON CHAVES BRAGA e LEONARDO FERNANDES DA CUNHA e JOAO VITOR DOS SANTOS CANELLAS e LUCAS FERNANDO TABATA",
             "Horario": "35M1234  34T2345"
         }
     },
@@ -22581,7 +22772,7 @@
     "DSC0075": {
         "Nome da Disciplina": "GESTÃO E PROMOÇÃO DA SAÚDE",
         "Turma 01": {
-            "Professor": "ISABELA RESENDE AVILA",
+            "Professor": "ISABELA RESENDE AVILA e JOAO ANDRE SANTOS DE OLIVEIRA",
             "Horario": "3N1234"
         }
     },
@@ -22626,13 +22817,6 @@
         "Turma 03": {
             "Professor": "CARLO HENRIQUE GORETTI ZANETTI e ANA VALERIA MACHADO MENDONCA",
             "Horario": "46T45"
-        }
-    },
-    "DSC0092": {
-        "Nome da Disciplina": "PLANEJAMENTO E PROGRAMAÇÃO EM SAÚDE",
-        "Turma 01": {
-            "Professor": "DENISE DE LIMA COSTA FURLANETTO",
-            "Horario": "4N1234"
         }
     },
     "DSC0093": {
@@ -22722,6 +22906,13 @@
         "Turma 01": {
             "Professor": "LIGIA MARIA CANTARINO DA COSTA e JONAS LOTUFO BRANT DE CARVALHO",
             "Horario": "2M5  2T1"
+        }
+    },
+    "DSC0204": {
+        "Nome da Disciplina": "PLANEJAMENTO, MONITORAMENTO E AVALIAÇÃO EM SAÚDE",
+        "Turma 01": {
+            "Professor": "DENISE DE LIMA COSTA FURLANETTO",
+            "Horario": "4N1234"
         }
     },
     "SER0001": {
@@ -22854,7 +23045,7 @@
     "SER0101": {
         "Nome da Disciplina": "FUNDAMENTOS HISTÓRICOS E TEÓRICO-METODOLÓGICOS DO SERVIÇO SOCIAL 1",
         "Turma 01": {
-            "Professor": "LARYSSA DANIELLY SILVA FERNANDES",
+            "Professor": "CLARISSA ARAUJO DA SILVA",
             "Horario": "35N34"
         },
         "Turma 02": {
@@ -22958,7 +23149,7 @@
     "SER0115": {
         "Nome da Disciplina": "PROCESSOS DE TRABALHO E SERVIÇO SOCIAL 2",
         "Turma 01": {
-            "Professor": "LARYSSA DANIELLY SILVA FERNANDES",
+            "Professor": "PERCI COELHO DE SOUZA",
             "Horario": "4M1234"
         },
         "Turma 02": {
@@ -22981,7 +23172,7 @@
             "Horario": "3T2345"
         },
         "Turma 04": {
-            "Professor": "ISABELA RAMOS RIBEIRO",
+            "Professor": "CAMILA POTYARA PEREIRA",
             "Horario": "2345T1"
         },
         "Turma 05": {
@@ -24529,7 +24720,7 @@
     "FAV0052": {
         "Nome da Disciplina": "FISIOLOGIA VETERINARIA 1",
         "Turma 01": {
-            "Professor": "LETICIA BATELLI DE OLIVEIRA e CRISTIANE DA SILVA PEREIRA",
+            "Professor": "FRANCISCO ERNESTO MORENO BERNAL e CRISTIANE DA SILVA PEREIRA",
             "Horario": "45M12  3T45"
         }
     },
@@ -24696,11 +24887,11 @@
     "FAV0161": {
         "Nome da Disciplina": "FISIOPATOLOGIA DA REPRODUCAO DA FEMEA",
         "Turma 01": {
-            "Professor": "IVO PIVATO e CRISTIANE DA SILVA PEREIRA",
+            "Professor": "RODRIGO ARRUDA DE OLIVEIRA e IVO PIVATO e CRISTIANE DA SILVA PEREIRA",
             "Horario": "5M1234  5T23"
         },
         "Turma 02": {
-            "Professor": "RODRIGO ARRUDA DE OLIVEIRA e CRISTIANE DA SILVA PEREIRA",
+            "Professor": "RODRIGO ARRUDA DE OLIVEIRA e IVO PIVATO e CRISTIANE DA SILVA PEREIRA",
             "Horario": "5M1234  5T23"
         }
     },
@@ -24725,11 +24916,11 @@
     "FAV0167": {
         "Nome da Disciplina": "FISIOPATOLOGIA DA REPRODUCAO DO MACHO",
         "Turma 01": {
-            "Professor": "IVO PIVATO e CRISTIANE DA SILVA PEREIRA",
+            "Professor": "RODRIGO ARRUDA DE OLIVEIRA e IVO PIVATO e CRISTIANE DA SILVA PEREIRA",
             "Horario": "4T2345"
         },
         "Turma 02": {
-            "Professor": "RODRIGO ARRUDA DE OLIVEIRA e CRISTIANE DA SILVA PEREIRA",
+            "Professor": "RODRIGO ARRUDA DE OLIVEIRA e IVO PIVATO e CRISTIANE DA SILVA PEREIRA",
             "Horario": "4T2345"
         }
     },
@@ -24743,7 +24934,7 @@
     "FAV0169": {
         "Nome da Disciplina": "TECNOLOGIA DE LEITE E DERIVADOS",
         "Turma 01": {
-            "Professor": "STEFANIA MARCIA DE OLIVEIRA SOUZA",
+            "Professor": "NATALIA GONZAGA",
             "Horario": "5T2345"
         }
     },
@@ -24761,7 +24952,7 @@
     "FAV0178": {
         "Nome da Disciplina": "FISIOLOGIA VETERINARIA 2",
         "Turma 01": {
-            "Professor": "LETICIA BATELLI DE OLIVEIRA e CRISTIANE DA SILVA PEREIRA",
+            "Professor": "FRANCISCO ERNESTO MORENO BERNAL e CRISTIANE DA SILVA PEREIRA",
             "Horario": "3M1234  4T45"
         }
     },
@@ -24796,7 +24987,7 @@
     "FAV0186": {
         "Nome da Disciplina": "INSPECAO DE LEITE E DERIVADOS",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "NATALIA GONZAGA",
             "Horario": "3M1234"
         }
     },
@@ -24860,7 +25051,7 @@
     "FAV0234": {
         "Nome da Disciplina": "INTRODUCAO A MEDICINA VETERINARIA",
         "Turma 01": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "NATALIA GONZAGA",
             "Horario": "2M12"
         }
     },
@@ -25171,13 +25362,6 @@
             "Horario": "24T6  24N1"
         }
     },
-    "FAV0351": {
-        "Nome da Disciplina": "CENÁRIOS CORPORATIVOS NO AGRONEGÓCIO",
-        "Turma 01": {
-            "Professor": "ENIO QUEIJADA DE SOUZA",
-            "Horario": "3N12"
-        }
-    },
     "FAV0354": {
         "Nome da Disciplina": "MÉTODOS QUALITATIVOS APLICADOS AO AGRONEGÓCIO",
         "Turma 01": {
@@ -25223,7 +25407,7 @@
     "FAV0517": {
         "Nome da Disciplina": "PRODUÇÃO VEGETAL",
         "Turma 01": {
-            "Professor": "PAULO VINICIUS DE MIRANDA PEREIRA",
+            "Professor": "MARCELO DE ABREU FLORES TOSCANO e PAULO VINICIUS DE MIRANDA PEREIRA",
             "Horario": "6N1234"
         }
     },
@@ -26127,7 +26311,7 @@
             "Horario": "24N34"
         },
         "Turma 02": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "RODRIGO NERY CARDOSO",
             "Horario": "24M34"
         }
     },
@@ -26293,7 +26477,7 @@
             "Horario": "35M34"
         },
         "Turma 02": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "JOÃO PIRES DE CARVALHO JUNIOR",
             "Horario": "35N12"
         }
     },
@@ -26684,7 +26868,7 @@
     "FDD0254": {
         "Nome da Disciplina": "ATUALIZAÇÃO E PRÁTICA DO DIREITO 2",
         "Turma 01": {
-            "Professor": "ISAAC COSTA REIS",
+            "Professor": "CLAUDIA ROSANE ROESLER e ISAAC COSTA REIS",
             "Horario": "4T2345"
         },
         "Turma 02": {
@@ -26963,6 +27147,13 @@
             "Horario": "57N1234"
         }
     },
+    "FED0044": {
+        "Nome da Disciplina": "PROJETOS DE ENSINO, PESQUISA E EXTENSÃO - PEPEX",
+        "Turma 01": {
+            "Professor": "ROSANGELA AZEVEDO CORREA",
+            "Horario": "2T2345"
+        }
+    },
     "FED0045": {
         "Nome da Disciplina": "ESTÁGIO SUPERVISIONADO II: ANOS INICIAIS",
         "Turma 01": {
@@ -26982,7 +27173,7 @@
             "Horario": "37T2345"
         },
         "Turma 05": {
-            "Professor": "GERALDO EUSTAQUIO MOREIRA",
+            "Professor": "RONI IVAN ROCHA DE OLIVEIRA e GERALDO EUSTAQUIO MOREIRA",
             "Horario": "7M1234  4N1234"
         },
         "Turma 06": {
@@ -27012,7 +27203,7 @@
             "Horario": "4M1234 7M123"
         },
         "Turma 03": {
-            "Professor": "ANDREIA MELLO LACE e IRACI PEREIRA DA SILVA",
+            "Professor": "ANDREIA MELLO LACE",
             "Horario": "7T234  3N1234"
         },
         "Turma 04": {
@@ -27020,7 +27211,7 @@
             "Horario": "47N1234"
         },
         "Turma 06": {
-            "Professor": "ANDREIA MELLO LACE e IRACI PEREIRA DA SILVA",
+            "Professor": "ANDREIA MELLO LACE",
             "Horario": "37M1234"
         }
     },
@@ -27051,10 +27242,6 @@
         },
         "Turma 05": {
             "Professor": "CRISTINA MARIA COSTA LEITE",
-            "Horario": "7M12  2T2345"
-        },
-        "Turma 06": {
-            "Professor": "ROSANGELA AZEVEDO CORREA",
             "Horario": "7M12  2T2345"
         }
     },
@@ -27426,19 +27613,19 @@
             "Horario": "2N1234"
         },
         "Turma 03": {
-            "Professor": "REMI CASTIONI",
+            "Professor": "MARDEM RIBEIRO ROCHA BARBOSA",
             "Horario": "6N1234"
         },
         "Turma 04": {
-            "Professor": "MONICA APARECIDA SERAFIM CARDOSO",
+            "Professor": "MARDEM RIBEIRO ROCHA BARBOSA",
             "Horario": "5T2345"
         },
         "Turma 05": {
-            "Professor": "MONICA APARECIDA SERAFIM CARDOSO",
+            "Professor": "SUELI MAMEDE LOBO FERREIRA",
             "Horario": "6N1234"
         },
         "Turma 06": {
-            "Professor": "MONICA APARECIDA SERAFIM CARDOSO",
+            "Professor": "MARDEM RIBEIRO ROCHA BARBOSA",
             "Horario": "35N12"
         },
         "Turma 07": {
@@ -27450,11 +27637,11 @@
             "Horario": "6N1234"
         },
         "Turma 09": {
-            "Professor": "REMI CASTIONI",
+            "Professor": "IRACI PEREIRA DA SILVA",
             "Horario": "6M1234"
         },
         "Turma 10": {
-            "Professor": "MONICA APARECIDA SERAFIM CARDOSO",
+            "Professor": "MARDEM RIBEIRO ROCHA BARBOSA",
             "Horario": "35N34"
         },
         "Turma 11": {
@@ -27466,11 +27653,11 @@
             "Horario": "2N1234"
         },
         "Turma 13": {
-            "Professor": "REMI CASTIONI",
+            "Professor": "IRACI PEREIRA DA SILVA",
             "Horario": "3M1234"
         },
         "Turma 14": {
-            "Professor": "REMI CASTIONI",
+            "Professor": "ANDREIA MELLO LACE e ANA SHEILA FERNANDES COSTA e MARIA ZELIA BORBA ROCHA",
             "Horario": "24M34"
         }
     },
@@ -27551,7 +27738,7 @@
     "TEF0002": {
         "Nome da Disciplina": "INFÂNCIA, CRIANÇA E EDUCAÇÃO",
         "Turma 01": {
-            "Professor": "SILMARA CARINA DORNELAS MUNHOZ",
+            "Professor": "NATALIA MARIA SERTORI WALTENBERG",
             "Horario": "5T2345"
         },
         "Turma 02": {
@@ -27636,7 +27823,7 @@
             "Horario": "2M1234"
         },
         "Turma 11": {
-            "Professor": "LUCIANA DANTAS DE PAULA",
+            "Professor": "SILMARA CARINA DORNELAS MUNHOZ",
             "Horario": "6N1234"
         },
         "Turma 12": {
@@ -27722,7 +27909,7 @@
     "TEF0092": {
         "Nome da Disciplina": "EDUCAÇÃO E TRABALHO",
         "Turma 01": {
-            "Professor": "CANDIDA BEATRIZ ALVES",
+            "Professor": "DEBORA FURTADO BARRERA",
             "Horario": "3N1234"
         },
         "Turma 02": {
@@ -27730,7 +27917,7 @@
             "Horario": "2T2345"
         },
         "Turma 03": {
-            "Professor": "CANDIDA BEATRIZ ALVES",
+            "Professor": "DEBORA FURTADO BARRERA",
             "Horario": "3M1234"
         }
     },
@@ -27792,11 +27979,11 @@
     "TEF0147": {
         "Nome da Disciplina": "EDUCAÇÃO DAS RELAÇÕES ÉTNICO-RACIAIS",
         "Turma 02": {
-            "Professor": "CANDIDA BEATRIZ ALVES",
+            "Professor": "DEBORA FURTADO BARRERA",
             "Horario": "2M1234"
         },
         "Turma 03": {
-            "Professor": "CANDIDA BEATRIZ ALVES",
+            "Professor": "DEBORA FURTADO BARRERA",
             "Horario": "6T2345"
         },
         "Turma 04": {
@@ -28129,7 +28316,7 @@
             "Horario": "7M12345  3T23"
         },
         "Turma 03": {
-            "Professor": "DANIEL RODRIGUES FERREIRA SAINT MARTIN",
+            "Professor": "DANIEL RODRIGUES FERREIRA SAINT MARTIN e FLAVIA MARTINELLI FERREIRA",
             "Horario": "2M45 7M12345"
         }
     },
@@ -28343,11 +28530,11 @@
     "FEF0469": {
         "Nome da Disciplina": "FUNDAMENTOS SOCIOLÓGICOS DA EDUCAÇÃO FÍSICA",
         "Turma 01": {
-            "Professor": "ROMULO MAIA CARLOS FONSECA",
+            "Professor": "FLAVIA MARTINELLI FERREIRA",
             "Horario": "46T45"
         },
         "Turma 02": {
-            "Professor": "ROMULO MAIA CARLOS FONSECA",
+            "Professor": "FLAVIA MARTINELLI FERREIRA",
             "Horario": "46M34"
         }
     },
@@ -28506,7 +28693,7 @@
     "FMD0020": {
         "Nome da Disciplina": "SAÚDE DO ADULTO - CLÍNICA MÉDICA 2",
         "Turma 01": {
-            "Professor": "MARCELO PALMEIRA RODRIGUES e CEZAR KOZAK SIMAAN e CIRO MARTINS GOMES e BARBARA EVELLINE DA SILVA BANDEIRA e ANA MARIA COSTA PINHEIRO e RICARDO LUIZ DE MELO MARTINS e MARIA ESTEFANIA BOSCO OTTO e FLAVIO JOSE DUTRA DE MOURA e HUGO COSTA PAES e FELIPE VON GLEHN SILVA e CINTIA MENDES CLEMENTE e FLAVIA DIAS XAVIER e JULIANA DE SOUZA LAPA e VALERIA PAES LIMA e JULIANA FORTE MAZZEU DE ARAUJO e LUCIANA ANSANELI NAVES",
+            "Professor": "MARCELO PALMEIRA RODRIGUES e MARCOS DE VASCONCELOS CARNEIRO e CEZAR KOZAK SIMAAN e CIRO MARTINS GOMES e BARBARA EVELLINE DA SILVA BANDEIRA e ANA MARIA COSTA PINHEIRO e RICARDO LUIZ DE MELO MARTINS e MARIA ESTEFANIA BOSCO OTTO e FLAVIO JOSE DUTRA DE MOURA e HUGO COSTA PAES e FELIPE VON GLEHN SILVA e CINTIA MENDES CLEMENTE e FLAVIA DIAS XAVIER e JULIANA DE SOUZA LAPA e VALERIA PAES LIMA e JULIANA FORTE MAZZEU DE ARAUJO e LUCIANA ANSANELI NAVES",
             "Horario": "234T2345"
         }
     },
@@ -28563,7 +28750,7 @@
     "FMD0027": {
         "Nome da Disciplina": "MORFOFUNCIONAL 3",
         "Turma 01": {
-            "Professor": "BARBARA DE LIMA LUCAS e JOSE EDUARDO BARONEZA e JOSE ROBERTO DE SOUZA DE ALMEIDA LEITE e CARLOS NOGUEIRA AUCELIO e AMILCAR SABINO DAMAZO e HUGO ALVES DE SOUSA e KAREN RUGGERI SAAD e ROGERIO WAGNER DA SILVA e CINTIA MENDES CLEMENTE e ANA LUCIA CARNEIRO SARMENTO e JOSE ROBERTO PIMENTA DE GODOY e SELMA APARECIDA SOUZA KUCKELHAUS",
+            "Professor": "JOSE EDUARDO BARONEZA e BARBARA DE LIMA LUCAS e MARCOS DE VASCONCELOS CARNEIRO e KAREN RUGGERI SAAD e ROGERIO WAGNER DA SILVA e SELMA APARECIDA SOUZA KUCKELHAUS e JOSE ROBERTO DE SOUZA DE ALMEIDA LEITE e CARLOS NOGUEIRA AUCELIO e HUGO ALVES DE SOUSA e AMILCAR SABINO DAMAZO e ANA LUCIA CARNEIRO SARMENTO e CINTIA MENDES CLEMENTE e JOSE ROBERTO PIMENTA DE GODOY",
             "Horario": "6M1234  4T2345"
         }
     },
@@ -28603,11 +28790,11 @@
     "FMD0032": {
         "Nome da Disciplina": "SAÚDE DA CRIANÇA E DO ADOLESCENTE - PEDIATRIA 1",
         "Turma 01": {
-            "Professor": "RENATA VASQUES PALHETA AVANCINI e DANIELLE DA SILVA BARBAS e GERALDO MAGELA FERNANDES e JOSE ALFREDO LACERDA DE JESUS e RUBRIA LIZIERO PICOLI e MARCIA TASCHETTO MOTTA e MARILUCIA ROCHA DE ALMEIDA PICANCO e KARINA NASCIMENTO COSTA e RAFAEL PIMENTEL SALDANHA",
+            "Professor": "RENATA VASQUES PALHETA AVANCINI e DANIELLE DA SILVA BARBAS e GERALDO MAGELA FERNANDES e JOSE ALFREDO LACERDA DE JESUS e RUBRIA LIZIERO PICOLI e MARILUCIA ROCHA DE ALMEIDA PICANCO e KARINA NASCIMENTO COSTA e RAFAEL PIMENTEL SALDANHA",
             "Horario": "2M1234 4M3 5M123"
         },
         "Turma 02": {
-            "Professor": "RENATA VASQUES PALHETA AVANCINI e DANIELLE DA SILVA BARBAS e RUBRIA LIZIERO PICOLI e MARCIA TASCHETTO MOTTA e MARILUCIA ROCHA DE ALMEIDA PICANCO e KARINA NASCIMENTO COSTA e CELSO TAQUES SALDANHA e RAFAEL PIMENTEL SALDANHA",
+            "Professor": "RENATA VASQUES PALHETA AVANCINI e DANIELLE DA SILVA BARBAS e GERALDO MAGELA FERNANDES e RUBRIA LIZIERO PICOLI e MARILUCIA ROCHA DE ALMEIDA PICANCO e KARINA NASCIMENTO COSTA e CELSO TAQUES SALDANHA e RAFAEL PIMENTEL SALDANHA",
             "Horario": "2M4 36M123 4M3"
         },
         "Turma 03": {
@@ -28637,7 +28824,7 @@
     "FMD0035": {
         "Nome da Disciplina": "INTERNATO  - SAÚDE DO ADULTO - CLÍNICA MÉDICA",
         "Turma 01": {
-            "Professor": "MARCELO PALMEIRA RODRIGUES e CEZAR KOZAK SIMAAN e CIRO MARTINS GOMES e FLAVIA LARA BARCELOS e HERVALDO SAMPAIO CARVALHO e FLAVIA ZATTAR PIAZERA e JOAO FELIPE GOMIDE DE PAULA SOUZA e ANA MARIA COSTA PINHEIRO e RICARDO LUIZ DE MELO MARTINS e MARIA ESTEFANIA BOSCO OTTO e MARIANA UBALDO BARBOSA PAIVA e AUGUSTO CEZAR FLORENCIO COSTA e ALEXANDRE SERGIO DE ARAUJO BEZERRA e FLAVIO JOSE DUTRA DE MOURA e FELIPE VON GLEHN SILVA e JULIANA DE SOUZA LAPA e CINTIA MENDES CLEMENTE e FLAVIA DIAS XAVIER e VALERIA PAES LIMA e LUCIANA ANSANELI NAVES",
+            "Professor": "MARCELO PALMEIRA RODRIGUES e MARCOS DE VASCONCELOS CARNEIRO e CEZAR KOZAK SIMAAN e CIRO MARTINS GOMES e FLAVIA LARA BARCELOS e HERVALDO SAMPAIO CARVALHO e FLAVIA ZATTAR PIAZERA e JOAO FELIPE GOMIDE DE PAULA SOUZA e ANA MARIA COSTA PINHEIRO e RICARDO LUIZ DE MELO MARTINS e MARIA ESTEFANIA BOSCO OTTO e MARIANA UBALDO BARBOSA PAIVA e AUGUSTO CEZAR FLORENCIO COSTA e ALEXANDRE SERGIO DE ARAUJO BEZERRA e FLAVIO JOSE DUTRA DE MOURA e FELIPE VON GLEHN SILVA e JULIANA DE SOUZA LAPA e CINTIA MENDES CLEMENTE e FLAVIA DIAS XAVIER e VALERIA PAES LIMA e LUCIANA ANSANELI NAVES",
             "Horario": "23T23456 456T2345"
         }
     },
@@ -28694,7 +28881,7 @@
     "FMD0042": {
         "Nome da Disciplina": "INTERNATO - SAÚDE INTEGRAL 2",
         "Turma 01": {
-            "Professor": "VERONICA MOREIRA AMADO e SEBASTIAO AFONSO VIANA MACEDO NEVES e ESTEVAO CUBAS ROLIM e FELIPE DE OLIVEIRA LOPES CAVALCANTI e LUIS KLAUS ALVES DA ROCHA e RAISSA SILVA FROTA e CAROLINA LOPES DE LIMA REIGADA",
+            "Professor": "ESTEVAO CUBAS ROLIM e FELIPE DE OLIVEIRA LOPES CAVALCANTI e LUIS KLAUS ALVES DA ROCHA e RAISSA SILVA FROTA",
             "Horario": "234567M12345  246T123456"
         }
     },
@@ -28708,14 +28895,14 @@
     "FMD0044": {
         "Nome da Disciplina": "SEMIOLOGIA",
         "Turma 01": {
-            "Professor": "MARCELO PALMEIRA RODRIGUES e CEZAR KOZAK SIMAAN e CIRO MARTINS GOMES e FLAVIA LARA BARCELOS e FLAVIA ZATTAR PIAZERA e JOAO FELIPE GOMIDE DE PAULA SOUZA e ANA MARIA COSTA PINHEIRO e RICARDO LUIZ DE MELO MARTINS e MARIA ESTEFANIA BOSCO OTTO e MARIANA UBALDO BARBOSA PAIVA e MARIA REGINA CATAI CHALITA e AUGUSTO CEZAR FLORENCIO COSTA e RAPHAEL BOECHAT BARROS e ALEXANDRE SERGIO DE ARAUJO BEZERRA e ANDRE LUIZ LOPES SAMPAIO e LUIS KLAUS ALVES DA ROCHA e FELIPE VON GLEHN SILVA e CINTIA MENDES CLEMENTE e JULIANA FORTE MAZZEU DE ARAUJO e PAULA CRISTINA MOREIRA COURAS DA SILVA",
+            "Professor": "MARCELO PALMEIRA RODRIGUES e MARCOS DE VASCONCELOS CARNEIRO e CEZAR KOZAK SIMAAN e CIRO MARTINS GOMES e FLAVIA LARA BARCELOS e FLAVIA ZATTAR PIAZERA e JOAO FELIPE GOMIDE DE PAULA SOUZA e ANA MARIA COSTA PINHEIRO e RICARDO LUIZ DE MELO MARTINS e MARIA ESTEFANIA BOSCO OTTO e MARIANA UBALDO BARBOSA PAIVA e MARIA REGINA CATAI CHALITA e AUGUSTO CEZAR FLORENCIO COSTA e RAPHAEL BOECHAT BARROS e ALEXANDRE SERGIO DE ARAUJO BEZERRA e ANDRE LUIZ LOPES SAMPAIO e LUIS KLAUS ALVES DA ROCHA e FELIPE VON GLEHN SILVA e CINTIA MENDES CLEMENTE e JULIANA FORTE MAZZEU DE ARAUJO e PAULA CRISTINA MOREIRA COURAS DA SILVA",
             "Horario": "2345M1234"
         }
     },
     "FMD0046": {
         "Nome da Disciplina": "INTERNATO  - SAÚDE DA CRIANÇA E DO ADOLESCENTE - PEDIATRIA",
         "Turma 01": {
-            "Professor": "MEIMEI GUIMARAES JUNQUEIRA DE QUEIROS e RENATA VASQUES PALHETA AVANCINI e DANIELLE DA SILVA BARBAS e JOSE ALFREDO LACERDA DE JESUS e JOAO DA COSTA PIMENTEL FILHO e CASSIA VALERIA DE CASTRO e MARILUCIA ROCHA DE ALMEIDA PICANCO e CELSO TAQUES SALDANHA e CARMEN LIVIA FARIA DA SILVA MARTINS e RAFAEL PIMENTEL SALDANHA e LUIZ CLAUDIO GONCALVES DE CASTRO e LISIANE SEGUTI FERREIRA e GERALDO MAGELA FERNANDES e RODRIGO DOS SANTOS LIMA e RUBRIA LIZIERO PICOLI e MARIA EDUARDA CANELLAS DE CASTRO e MARCIA TASCHETTO MOTTA e KARINA NASCIMENTO COSTA e ALESSANDRA DOS SANTOS DOMINGUES",
+            "Professor": "MEIMEI GUIMARAES JUNQUEIRA DE QUEIROS e FELIPE MOTTA e RENATA VASQUES PALHETA AVANCINI e DANIELLE DA SILVA BARBAS e JOSE ALFREDO LACERDA DE JESUS e JOAO DA COSTA PIMENTEL FILHO e CASSIA VALERIA DE CASTRO e MARILUCIA ROCHA DE ALMEIDA PICANCO e CELSO TAQUES SALDANHA e CARMEN LIVIA FARIA DA SILVA MARTINS e RAFAEL PIMENTEL SALDANHA e LUIZ CLAUDIO GONCALVES DE CASTRO e LISIANE SEGUTI FERREIRA e GERALDO MAGELA FERNANDES e RODRIGO DOS SANTOS LIMA e RUBRIA LIZIERO PICOLI e MARIA EDUARDA CANELLAS DE CASTRO e KARINA NASCIMENTO COSTA e ALESSANDRA DOS SANTOS DOMINGUES",
             "Horario": "23T23456 456T2345"
         }
     },
@@ -28761,11 +28948,11 @@
     "FMD0052": {
         "Nome da Disciplina": "SAÚDE DA CRIANÇA E DO ADOLESCENTE - PEDIATRIA 2",
         "Turma 01": {
-            "Professor": "LUIZ CLAUDIO GONCALVES DE CASTRO e LISIANE SEGUTI FERREIRA e RODRIGO DOS SANTOS LIMA e RUBRIA LIZIERO PICOLI e MARIA EDUARDA CANELLAS DE CASTRO e MARCIA TASCHETTO MOTTA e KARINA NASCIMENTO COSTA e JULIANA FORTE MAZZEU DE ARAUJO e CELSO TAQUES SALDANHA e ALESSANDRA DOS SANTOS DOMINGUES",
+            "Professor": "LUIZ CLAUDIO GONCALVES DE CASTRO e LISIANE SEGUTI FERREIRA e FELIPE MOTTA e RODRIGO DOS SANTOS LIMA e RUBRIA LIZIERO PICOLI e MARIA EDUARDA CANELLAS DE CASTRO e KARINA NASCIMENTO COSTA e JULIANA FORTE MAZZEU DE ARAUJO e CELSO TAQUES SALDANHA e ALESSANDRA DOS SANTOS DOMINGUES",
             "Horario": "3M4 5M124 6M12  6T2345"
         },
         "Turma 02": {
-            "Professor": "LUIZ CLAUDIO GONCALVES DE CASTRO e CATIA SOUSA GOVEIA e RODRIGO DOS SANTOS LIMA e EUGENIO DOS SANTOS NETO e MARIA EDUARDA CANELLAS DE CASTRO e MARCIA TASCHETTO MOTTA e MARILUCIA ROCHA DE ALMEIDA PICANCO e ALESSANDRA DOS SANTOS DOMINGUES",
+            "Professor": "LUIZ CLAUDIO GONCALVES DE CASTRO e CATIA SOUSA GOVEIA e FELIPE MOTTA e RODRIGO DOS SANTOS LIMA e EUGENIO DOS SANTOS NETO e MARIA EDUARDA CANELLAS DE CASTRO e MARILUCIA ROCHA DE ALMEIDA PICANCO e ALESSANDRA DOS SANTOS DOMINGUES",
             "Horario": "3M4 5M124 6M12  5T2345"
         },
         "Turma 03": {
@@ -28806,7 +28993,7 @@
     "FMD0055": {
         "Nome da Disciplina": "SAÚDE DO ADULTO - CLÍNICA MÉDICA 1",
         "Turma 01": {
-            "Professor": "MARIANA UBALDO BARBOSA PAIVA e VERONICA MOREIRA AMADO e LUCAS ALVES DE BRITO OLIVEIRA e AUGUSTO CEZAR FLORENCIO COSTA e FLAVIO JOSE DUTRA DE MOURA e ALEXANDRE SERGIO DE ARAUJO BEZERRA e CEZAR KOZAK SIMAAN e FLAVIA DIAS XAVIER e CINTIA MENDES CLEMENTE e VALERIA PAES LIMA e FLAVIA ZATTAR PIAZERA e RICARDO LUIZ DE MELO MARTINS",
+            "Professor": "MARIANA UBALDO BARBOSA PAIVA e VERONICA MOREIRA AMADO e LUCAS ALVES DE BRITO OLIVEIRA e AUGUSTO CEZAR FLORENCIO COSTA e FLAVIO JOSE DUTRA DE MOURA e ALEXANDRE SERGIO DE ARAUJO BEZERRA e MARCOS DE VASCONCELOS CARNEIRO e CEZAR KOZAK SIMAAN e FLAVIA DIAS XAVIER e CINTIA MENDES CLEMENTE e VALERIA PAES LIMA e FLAVIA ZATTAR PIAZERA e RICARDO LUIZ DE MELO MARTINS",
             "Horario": "246M1234  2T45 6T23"
         }
     },
@@ -29570,7 +29757,7 @@
     "FUP0238": {
         "Nome da Disciplina": "ESTÁGIO SUPERVISIONADO",
         "Turma 01": {
-            "Professor": "WILLIAM SANTANA",
+            "Professor": "WILLIAM SANTANA e TIBERIO LEONARDO GUITTON e MARIO LUCIO DE AVILA e REINALDO JOSE DE MIRANDA FILHO e CELSO VILA NOVA DE SOUZA JUNIOR",
             "Horario": "23T12345 46T456 5T2345"
         }
     },
@@ -29995,7 +30182,7 @@
     "FUP0346": {
         "Nome da Disciplina": "ANÁLISE DE DECISÕES E ADMINISTRAÇÃO DE RISCOS",
         "Turma 01": {
-            "Professor": "CELSO VILA NOVA DE SOUZA JUNIOR",
+            "Professor": "MARIA EUGENIA DINIZ FIGUEIREDO CIRENO",
             "Horario": "5T45"
         }
     },
@@ -30419,7 +30606,7 @@
     "FUP0521": {
         "Nome da Disciplina": "ADMINISTRAÇÃO PÚBLICA",
         "Turma 01": {
-            "Professor": "CLARISSA MELO LIMA e TITO RICARDO VAZ DA COSTA",
+            "Professor": "CLARISSA MELO LIMA e MARIA EUGENIA DINIZ FIGUEIREDO CIRENO e TITO RICARDO VAZ DA COSTA",
             "Horario": "6N1234"
         }
     },
@@ -30440,7 +30627,7 @@
     "FUP0524": {
         "Nome da Disciplina": "ORGANIZAÇÃO E MÉTODOS",
         "Turma 01": {
-            "Professor": "LUANE SOUSA AGUIAR",
+            "Professor": "MARIA EUGENIA DINIZ FIGUEIREDO CIRENO e LUANE SOUSA AGUIAR",
             "Horario": "3N1234"
         }
     },
@@ -30659,18 +30846,18 @@
     "FUP0569": {
         "Nome da Disciplina": "ESTÁGIO SUPERVISIONADO ACADÊMICO",
         "Turma 01": {
-            "Professor": "JEAN LOUIS LE GUERROUE",
+            "Professor": "SUSAN ELIZABETH MARTINS CESAR DE OLIVEIRA e JEAN LOUIS LE GUERROUE",
             "Horario": "23456T2345"
         }
     },
     "FUP0570": {
         "Nome da Disciplina": "ESTÁGIO SUPERVISIONADO PROFISSIONALIZANTE",
         "Turma 01": {
-            "Professor": "JEAN LOUIS LE GUERROUE",
+            "Professor": "JONILTO COSTA SOUSA e JEAN LOUIS LE GUERROUE",
             "Horario": "2345M1234 6M12"
         },
         "Turma 02": {
-            "Professor": "JEAN LOUIS LE GUERROUE",
+            "Professor": "JEAN LOUIS LE GUERROUE e JULIANA EUGENIA CAIXETA e DONARIA COELHO DUARTE",
             "Horario": "234T12345 5T123"
         }
     },
@@ -30860,7 +31047,7 @@
             "Horario": "24M34"
         },
         "Turma 02": {
-            "Professor": "A DEFINIR DOCENTE",
+            "Professor": "DANILO BIJOS CRISPIM",
             "Horario": "6T2345"
         },
         "Turma 03": {
@@ -31684,6 +31871,10 @@
     },
     "CFS0048": {
         "Nome da Disciplina": "FISIOLOGIA ANIMAL 1",
+        "Turma 01": {
+            "Professor": "A DEFINIR DOCENTE",
+            "Horario": "35N12"
+        },
         "Turma 02": {
             "Professor": "RENATO JOSE RODRIGUES MALCHER LOPES",
             "Horario": "36M34"
@@ -32268,10 +32459,6 @@
     },
     "ICB0053": {
         "Nome da Disciplina": "PROJETO DE PESQUISA EM EDUCAÇÃO CIENTÍFICA",
-        "Turma 01": {
-            "Professor": "PAULO EDUARDO AGUIAR SARAIVA CAMARA",
-            "Horario": "56M5  56T1"
-        },
         "Turma 02": {
             "Professor": "RENATO JOSE RODRIGUES MALCHER LOPES",
             "Horario": "26M5  26T1"
@@ -32369,7 +32556,7 @@
     "ICB0302": {
         "Nome da Disciplina": "ESTÁGIO SUPERVISIONADO EM ENSINO DE CIÊNCIAS E BIOLOGIA 2",
         "Turma 01": {
-            "Professor": "MARIA RITA AVANZI",
+            "Professor": "JOAO PAULO CUNHA DE MENEZES",
             "Horario": "4N12 7N1234"
         }
     },
@@ -32606,13 +32793,6 @@
         "Turma 01": {
             "Professor": "ERCILIA TORRES STEINKE",
             "Horario": ""
-        }
-    },
-    "IFD0001": {
-        "Nome da Disciplina": "PRÁTICA DE APOIO DA FÍSICA 1- 1",
-        "Turma 01": {
-            "Professor": "NADIA MARIA DE LIZ KOCHE",
-            "Horario": "2M5  2T1"
         }
     },
     "IFD0004": {
@@ -33307,7 +33487,7 @@
             "Horario": "5T2345"
         },
         "Turma 07": {
-            "Professor": "GUILHERME SIQUEIRA GOMIDE",
+            "Professor": "MARCO ANTONIO RODRIGUEZ MARTINEZ e GUILHERME SIQUEIRA GOMIDE",
             "Horario": "4M1234"
         },
         "Turma 08": {
@@ -33323,7 +33503,7 @@
             "Horario": "6T2345"
         },
         "Turma 11": {
-            "Professor": "GUILHERME SIQUEIRA GOMIDE",
+            "Professor": "MARCO ANTONIO RODRIGUEZ MARTINEZ e GUILHERME SIQUEIRA GOMIDE",
             "Horario": "4M1234"
         },
         "Turma 12": {
@@ -33437,7 +33617,7 @@
     "IFD0338": {
         "Nome da Disciplina": "PROJETOS E PROGRAMAS PARA O ENSINO DE FÍSICA",
         "Turma 01": {
-            "Professor": "ANDRE LUIS MIRANDA DE BARCELLOS COELHO",
+            "Professor": "JAILTON CORREIA FRAGA JUNIOR",
             "Horario": "35N34"
         }
     },
@@ -33512,14 +33692,14 @@
     "IFD0376": {
         "Nome da Disciplina": "HISTÓRIA DA FÍSICA CLÁSSICA",
         "Turma 01": {
-            "Professor": "ALESSANDRA FERREIRA ALBERNAZ",
+            "Professor": "ALESSANDRA FERREIRA ALBERNAZ e LETICIA GONCALVES NUNES COELHO",
             "Horario": ""
         }
     },
     "IFD0377": {
         "Nome da Disciplina": "HISTÓRIA DA FÍSICA MODERNA",
         "Turma 01": {
-            "Professor": "ALESSANDRA FERREIRA ALBERNAZ",
+            "Professor": "ALESSANDRA FERREIRA ALBERNAZ e LETICIA GONCALVES NUNES COELHO",
             "Horario": ""
         }
     },
@@ -33650,7 +33830,7 @@
     "IFD0430": {
         "Nome da Disciplina": "INTRODUÇÃO AO ENSINO E DIVULGAÇÃO DA FÍSICA",
         "Turma 01": {
-            "Professor": "FELIPPE GUIMARAES MACIEL",
+            "Professor": "FELIPPE GUIMARAES MACIEL e KHALIL OLIVEIRA PORTUGAL",
             "Horario": "2N34"
         }
     },
@@ -34093,7 +34273,7 @@
     "IGD0191": {
         "Nome da Disciplina": "MAPEAMENTO GEOLÓGICO 2",
         "Turma 01": {
-            "Professor": "CAIO ARTHUR SANTOS e ROBERTA MARY VIDOTTI e PEDRO LEONARDO NICOLAU DO CARMO ROSSI VIEIRA e NATALIA HAUSER",
+            "Professor": "CAIO ARTHUR SANTOS e ROBERTA MARY VIDOTTI e PEDRO LEONARDO NICOLAU DO CARMO ROSSI VIEIRA e NATALIA HAUSER e ELTON LUIZ DANTAS",
             "Horario": "2T1  2345N4"
         }
     },
@@ -34683,7 +34863,7 @@
             "Horario": "246T23"
         },
         "Turma 04": {
-            "Professor": "MARISTELA ROSSATO MARTINS",
+            "Professor": "MARISTELA ROSSATO",
             "Horario": "246M34"
         },
         "Turma 05": {
@@ -35087,7 +35267,7 @@
             "Horario": "5T45"
         },
         "Turma 03": {
-            "Professor": "ANA CRISTI BASILE DIAS",
+            "Professor": "TARCISIO SILVA DE ALMEIDA",
             "Horario": "3N12"
         }
     },
@@ -35445,7 +35625,7 @@
             "Horario": "5M34"
         },
         "Turma 21": {
-            "Professor": "JOSENAIDE PEREIRA DO NASCIMENTO",
+            "Professor": "DOUGLAS DA COSTA GONTIJO",
             "Horario": "3N12"
         },
         "Turma 22": {
@@ -35465,7 +35645,7 @@
             "Horario": "5M34"
         },
         "Turma 26": {
-            "Professor": "RICARDO BASTOS CUNHA",
+            "Professor": "DOUGLAS DA COSTA GONTIJO",
             "Horario": "6N34"
         },
         "Turma 27": {
@@ -35659,10 +35839,6 @@
     },
     "IQD0213": {
         "Nome da Disciplina": "QUÍMICA BIOLÓGICA",
-        "Turma 01": {
-            "Professor": "DOUGLAS DA COSTA GONTIJO",
-            "Horario": "4N34 6N12"
-        },
         "Turma 02": {
             "Professor": "MAURO VICENTINI CORREIA",
             "Horario": "35T23"

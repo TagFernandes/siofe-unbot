@@ -20,11 +20,8 @@ import random
 import json
 from datetime import datetime
 
-from data import logger
+from data import logger, VERIFICACAO_OFERTA_PROCESS, COMECO_EXTRACAO_OFERTA, ARQUIVO_OFERTA_ULTIMA_GERACAO_TIMESTAMP
 
-from prometheus_client import (
-    Gauge
-)
 #####
 OFERTAS_SEMESTRE = None
 SEMESTRE_ATUAL = None
@@ -178,10 +175,6 @@ def extractOferta():
     with open(NOME_ARQUIVO, "w", encoding="utf-8") as arquivo:
         json.dump(OFERT, arquivo, ensure_ascii=False, indent=4)
 
-    ARQUIVO_OFERTA_ULTIMA_GERACAO_TIMESTAMP = Gauge(
-        'ULTIMA_GERACAO_OFERTA_TIMESTAMP',
-        'Timestamp Unix da última vez que o arquivo de ofertas foi gerado com sucesso.'
-    )
     timestamp_agora = time.time()
     ARQUIVO_OFERTA_ULTIMA_GERACAO_TIMESTAMP.set(timestamp_agora)
     logger.info(f"Arquivo de oferta {NOME_ARQUIVO} gerado com sucesso")
@@ -327,21 +320,11 @@ def main():
         print("Thread de oferta desativada no control.json")
         return
     setControlThread()
-
-    VERIFICACAO_OFERTA_PROCESS = Gauge(
-        'verificacao_oferta_process',
-        'Mostra se a aplicação está executando verificação de ofertas'
-    )
-
-    VERIFICACAO_OFERTA_PROCESS.set(-1)
+    VERIFICACAO_OFERTA_PROCESS.set(-2)
     global SEMESTRE_ATUAL, ANO_ATUAL, NOME_ARQUIVO
     time.sleep(120)
     while True:
         try:
-            COMECO_EXTRACAO_OFERTA = Gauge(
-                'comeco_extracao_oferta_debug',
-                'Timestamp Unix do comeco da verficacao oferta.'
-            )
             timestamp_agora = time.time()
             COMECO_EXTRACAO_OFERTA.set(timestamp_agora)
 
@@ -361,7 +344,7 @@ def main():
             print(f"Erro na catalogação de lista de oferta: {e}")
             logger.error(f"Erro na catalogação de lista de oferta: {e}")
             
-        VERIFICACAO_OFERTA_PROCESS.set(0)
+        VERIFICACAO_OFERTA_PROCESS.set(-1)
         timeWait = int(readTimeJson())
         logger.info(f"Proxima verificacao de oferta em: {timeWait} segundos")
         time.sleep(timeWait)  
