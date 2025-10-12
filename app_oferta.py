@@ -40,7 +40,7 @@ from prometheus_flask_exporter import PrometheusMetrics
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 FlaskInstrumentor().instrument_app(app, excluded_urls="/metrics")
-metrics = PrometheusMetrics(app, path=None)
+metrics = PrometheusMetrics(app, path=None, excluded_paths=['/metrics'])
 
 
 
