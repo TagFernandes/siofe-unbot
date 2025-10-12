@@ -5,6 +5,7 @@ os.environ['PROMETHEUS_MULTIPROC_DIR'] = metrics_dir
 os.makedirs(metrics_dir, exist_ok=True)
 
 from flask import Flask, request, jsonify, g ,Response
+from werkzeug.middleware.proxy_fix import ProxyFix
 import time
 import json
 from functools import wraps
@@ -38,6 +39,9 @@ from data import logger
 ##
 from prometheus_flask_exporter import PrometheusMetrics
 app = Flask(__name__)
+app.wsgi_app = ProxyFix(
+    app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1
+)
 app.config['JSON_AS_ASCII'] = False
 FlaskInstrumentor().instrument_app(app, excluded_urls="/metrics")
 metrics = PrometheusMetrics(app, path=None, excluded_paths=['/metrics'])
