@@ -87,6 +87,22 @@ def click(wait, xpath, text=None):
 
 
 
+def goToListaOferta(wait, driver):
+    driver.get("https://sigaa.unb.br/sigaa/public/home.jsf#")
+    botaoEnsino_Xpath = '//*[@id="l-ensino"]'
+    time.sleep(2)
+    click(wait, botaoEnsino_Xpath) #clicar em ensino
+    time.sleep(2)
+    
+    #Clicar em turmas
+    seletor = (By.XPATH, "//div[contains(@class, 'turmas')]")
+    elemento = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable(seletor)
+    )
+    elemento.click()
+    
+    time.sleep(5)
+    click(wait, '//*[@id="sigaa-cookie-consent"]/button') #clicar em aceitar cookies
 
 def extractOferta():
     OFERT = {}
@@ -114,19 +130,16 @@ def extractOferta():
 
     wait = WebDriverWait(navegador, TimeOutWebDriverMaxOferta)
     ####################################################################################
-
-
-    navegador.get("https://sigaa.unb.br/sigaa/public/turmas/listar.jsf?aba=p-ensino")
-
-    time.sleep(10)
-    click(wait, '//*[@id="sigaa-cookie-consent"]/button') #clicar em aceitar cookies
+    goToListaOferta(wait, navegador)
 
     #definir semestre
     global SEMESTRE_ATUAL
     semestre = SEMESTRE_ATUAL
+    global ANO_ATUAL
+    ano = ANO_ATUAL
     click(wait, '//*[@id="formTurma:inputPeriodo"]')
     click(wait, f'//*[@id="formTurma:inputPeriodo"]/option[{semestre}]')
-    click(wait, '//*[@id="formTurma:inputAno"]', "2025")
+    click(wait, '//*[@id="formTurma:inputAno"]', ano)
 
 
 
@@ -149,6 +162,8 @@ def extractOferta():
             select_element_depto = Select(navegador.find_element(By.XPATH, Depto_Xpath))
             select_element_depto.select_by_index(index_depto)
 
+            print(f"Clicando em buscar... | Departamento: {select_element_depto.first_selected_option.text} | Nivel de Ensino: {opcao_selecionada_ensino}")
+            time.sleep(1)
             click(wait, BotaoBusca_Xpath)
             
             time.sleep(5)
@@ -322,7 +337,8 @@ def main():
     setControlThread()
     VERIFICACAO_OFERTA_PROCESS.set(-2)
     global SEMESTRE_ATUAL, ANO_ATUAL, NOME_ARQUIVO
-    time.sleep(120)
+    print("Iniciando Thread de Oferta de Materias em instantes...")
+    time.sleep(15)
     while True:
         try:
             timestamp_agora = time.time()

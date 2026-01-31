@@ -15,7 +15,7 @@ preload_app = True
 
 # O endereço e a porta para vincular.
 # '0.0.0.0' torna o servidor acessível de qualquer IP na rede.
-bind = "0.0.0.0:5001"
+bind = "0.0.0.0:5002"
 
 # Nível de log. Opções: 'debug', 'info', 'warning', 'error', 'critical'
 loglevel = "info"

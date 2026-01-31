@@ -140,69 +140,6 @@ def sendTimeOferta():
         dados = json.load(arquivo)
     logger.info(f"Solicitacao de tempo de thread | tempo de: {dados["time"]} seg")
     return str(dados["time"])
-
-
-
-@app.route('/timeOferta', methods=['POST'])
-def setTimeOferta():
-    logger.info("Solicitacao para set de tempoOferta")
-    dados_requisicao = request.get_json()
-    tempo = dados_requisicao.get("tempo")
-    tokenRequisicao = dados_requisicao.get("token")
-
-    if not tempo or not tokenRequisicao:
-        logger.warning("Requisicao de set tempoOferta mal formatada")
-        return jsonify({
-            'erro': 'Os campos "tempo" e "token" são obrigatórios.'
-        }), 400
-
-    try:
-        with open("token.json", 'r', encoding='utf-8') as arquivo:
-            dados = json.load(arquivo)
-            token = dados["token"]
-
-    except Exception as e:
-        logger.error(f"Erro ao obter token do servidor: {e}")
-        return "Erro nos servidor", 500
-    
-
-    if tokenRequisicao != token:
-        logger.warning(f"Token inválido: {tokenRequisicao}")
-        return jsonify({
-            'erro': 'token inválido'
-        }), 403
-    
-    try:
-        tempo = int(tempo)
-    except:
-        logger.warning("Nao foi possivel converter o tempo de setTimeOferta para inteiro")
-        return jsonify({
-            'erro': 'tempo deve ser um inteiro'
-        }), 400
-    
-    dados = {"time":tempo}
-    with open("time.json", 'w', encoding='utf-8') as arquivo:
-        json.dump(dados, arquivo, indent=4, ensure_ascii=False) 
-    logger.info(f"Tempo setOferta para: {tempo}")
-
-    return f"Tempo configurado com sucesso ({tempo})", 200
-    
-
-@app.route('/timeOfertaTimeStamp/<timestamp>')
-def converter_timestamp(timestamp):
-    """
-    Esta função é acionada quando a URL /converter/<timestamp> é acessada.
-    Ela recebe o timestamp da URL, converte para uma data e retorna o resultado.
-    """
-    try:
-        data_hora = datetime.fromtimestamp(float(timestamp))
-        
-        # Formata o objeto datetime para uma string legível (Dia/Mês/Ano Hora:Minuto:Segundo)
-        data_formatada = data_hora.strftime('%d/%m/%Y %H:%M:%S')
-        
-        return data_formatada
-    except:
-        return "Erro ao obter timestamp", 500
 ##############################################################################################################
 oferta = threading.Thread(target=Lista_Oferta.main)
 oferta.daemon = True
@@ -211,4 +148,11 @@ print("Serivdor iniciado")
 logger.info("Servidor iniciado")
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001, debug=False)
+    try:
+        dados = {"controleTrhead":True}
+        with open("control.json", 'w', encoding='utf-8') as arquivo:
+            json.dump(dados, arquivo, indent=4, ensure_ascii=False)
+    except Exception as e:
+        logger.error(f"Erro ao criar control.json na inicializacao: {e}")
+
+    app.run(host='0.0.0.0', port=5002, debug=False)
